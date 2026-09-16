@@ -1,5 +1,180 @@
 {
   "name": "partme-ai",
   "description": "PartMe.AI plugin marketplace: tri-platform (Codex / ZCode / Kimi Code) creative and productivity plugins.",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "blender",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-blender-plugin",
+        "ref": "main"
+      },
+      "description": "Design Blender scenes through controlled operations, visual milestones, recovery checkpoints, and verified file exports.",
+      "description_i18n": {
+        "en": "Design Blender scenes through controlled operations, visual milestones, recovery checkpoints, and verified file exports.",
+        "zh-CN": "通过受控操作、里程碑截图、事务回滚与校验导出，让智能体安全地设计 Blender 场景；含白模预演与即梦交接。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png",
+      "version": "0.3.0",
+      "category": "Creativity",
+      "tags": [
+        "blender",
+        "3d",
+        "previs"
+      ]
+    },
+    {
+      "name": "maya",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-maya-plugin",
+        "ref": "main"
+      },
+      "description": "Inspect Autodesk Maya scenes, create reversible Playblasts, and return a Jimeng link through the official uploader.",
+      "description_i18n": {
+        "en": "Inspect Autodesk Maya scenes, create reversible Playblasts, and return a Jimeng link through the official uploader.",
+        "zh-CN": "检查 Autodesk Maya 场景、生成可回滚的 Playblast 预览，并经官方上传器返回即梦链接。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "maya",
+        "3d",
+        "playblast"
+      ]
+    },
+    {
+      "name": "stitch",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-stitch-plugin",
+        "ref": "main"
+      },
+      "description": "Google Stitch design and design-to-code workflows powered by the remote Stitch MCP server.",
+      "description_i18n": {
+        "en": "Google Stitch design and design-to-code workflows powered by the remote Stitch MCP server.",
+        "zh-CN": "由远程 Stitch MCP 驱动的 Google Stitch 设计与设计转代码工作流：生成/编辑界面、设计系统管理、前端组件产出。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png",
+      "version": "0.7.8",
+      "category": "Design",
+      "tags": [
+        "stitch",
+        "design",
+        "design-to-code"
+      ]
+    },
+    {
+      "name": "processon",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-processon-plugin",
+        "ref": "main"
+      },
+      "description": "Create polished, editable ProcessOn diagrams, mind maps, and infographics.",
+      "description_i18n": {
+        "en": "Create polished, editable ProcessOn diagrams, mind maps, and infographics.",
+        "zh-CN": "创建专业的可编辑 ProcessOn 流程图、思维导图与信息图，内置质量评审工作流。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png",
+      "version": "0.2.0",
+      "category": "Productivity",
+      "tags": [
+        "processon",
+        "diagram",
+        "mind-map"
+      ]
+    },
+    {
+      "name": "dreamina-design",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-dreamina-design-plugin",
+        "ref": "main"
+      },
+      "description": "Dreamina image and video design workflows with runtime CLI discovery and resumable operations.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-dreamina-design-plugin/main/assets/logo.png",
+      "version": "0.4.0",
+      "category": "Creativity",
+      "tags": [
+        "dreamina",
+        "seedance",
+        "text2video"
+      ]
+    },
+    {
+      "name": "dreamina-canvas",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-dreamina-canvas-plugin",
+        "ref": "main"
+      },
+      "description": "Dreamina Canvas workflows for structured nodes, timelines, quoted runs, recovery, and assets.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-dreamina-canvas-plugin/main/assets/logo.png",
+      "version": "0.1.2",
+      "category": "Creativity",
+      "tags": [
+        "dreamina",
+        "canvas",
+        "timeline"
+      ]
+    },
+    {
+      "name": "image-factory",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-image-factory-plugin",
+        "ref": "main"
+      },
+      "description": "Batch image production with attributed prompt discovery, verified receipts, evaluation, and prompt optimization.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-image-factory-plugin/main/assets/logo.png",
+      "version": "0.1.2",
+      "category": "Creativity",
+      "tags": [
+        "image",
+        "batch",
+        "receipts"
+      ]
+    },
+    {
+      "name": "video-factory",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-video-factory-plugin",
+        "ref": "main"
+      },
+      "description": "Automatic editing, video composition, synchronized review, recovery, and verified media receipts.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-video-factory-plugin/main/assets/video-factory-cover.png",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "video",
+        "editing",
+        "receipts"
+      ]
+    },
+    {
+      "name": "bt",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-bt-plugin",
+        "ref": "main"
+      },
+      "description": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, drive 98 panel tools via Streamable HTTP + Bearer Token.",
+      "description_i18n": {
+        "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, drive 98 panel tools via Streamable HTTP + Bearer Token.",
+        "zh-CN": "通过 MCP 协议操作宝塔（BT）Linux 面板 13.0：诊断网站/数据库/服务、审计安全、远程调用 98 个面板工具（Streamable HTTP + Bearer Token）。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png",
+      "version": "1.0.0",
+      "category": "Productivity",
+      "tags": [
+        "baota",
+        "bt-panel",
+        "linux-ops",
+        "mcp"
+      ]
+    }
+  ]
 }

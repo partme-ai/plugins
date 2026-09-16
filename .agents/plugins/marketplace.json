@@ -5,5 +5,132 @@
     "name": "PartMe.AI",
     "url": "https://github.com/partme-ai"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "codex-blender",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-blender-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.3.0"
+    },
+    {
+      "name": "codex-maya",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-maya-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.0"
+    },
+    {
+      "name": "stitch-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-stitch-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Design",
+      "version": "0.7.8"
+    },
+    {
+      "name": "codex-processon-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-processon-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "version": "0.2.0"
+    },
+    {
+      "name": "codex-dreamina-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-dreamina-design.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.4.0"
+    },
+    {
+      "name": "codex-dreamina-canvas",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-dreamina-canvas.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.2"
+    },
+    {
+      "name": "codex-image-factory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-image-factory.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.2"
+    },
+    {
+      "name": "codex-video-factory",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-video-factory.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.0"
+    },
+    {
+      "name": "codex-bt",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-bt-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity",
+      "version": "1.0.0"
+    }
+  ]
 }

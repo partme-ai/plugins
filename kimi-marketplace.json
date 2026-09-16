@@ -1,4 +1,41 @@
 {
   "version": "2",
-  "plugins": []
+  "plugins": [
+    {
+      "id": "blender",
+      "source": "https://github.com/partme-ai/partme-blender-plugin"
+    },
+    {
+      "id": "maya",
+      "source": "https://github.com/partme-ai/partme-maya-plugin"
+    },
+    {
+      "id": "stitch",
+      "source": "https://github.com/partme-ai/partme-stitch-plugin"
+    },
+    {
+      "id": "processon",
+      "source": "https://github.com/partme-ai/partme-processon-plugin"
+    },
+    {
+      "id": "dreamina-design",
+      "source": "https://github.com/partme-ai/partme-dreamina-design"
+    },
+    {
+      "id": "dreamina-canvas",
+      "source": "https://github.com/partme-ai/partme-dreamina-canvas"
+    },
+    {
+      "id": "image-factory",
+      "source": "https://github.com/partme-ai/partme-image-factory"
+    },
+    {
+      "id": "video-factory",
+      "source": "https://github.com/partme-ai/partme-video-factory"
+    },
+    {
+      "id": "bt",
+      "source": "https://github.com/partme-ai/partme-bt-plugin"
+    }
+  ]
 }
