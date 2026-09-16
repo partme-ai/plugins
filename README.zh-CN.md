@@ -105,6 +105,12 @@ codex plugin add codex-video-factory@partme-ai
 
 将本仓库添加为第三方市场即可；`.agents/plugins/marketplace.json` 清单与 Claude 兼容。
 
+## 安装后去哪确认
+
+- **ZCode**：已装插件出现在插件面板的「已安装」视图（及顶部图标条）。技能、斜杠命令、MCP 工具只在**安装之后新开的会话**里出现——请新开会话。面板里「还没有个人插件，使用 /plugin builder 创建…」的空状态指的是*你在会话里用构建器创建的插件*，和市场安装的插件是两个概念；我们的插件在 **partme-ai** 市场分段与已安装视图里。
+- **Kimi Code CLI**：没有明显的"添加市场"按钮——在会话里直接输入 `/plugins marketplace <url>` 斜杠命令，或在 `/plugins` 面板里按 GitHub URL 逐个添加插件仓库。已装插件在新会话生效（`/reload` 或 `/new`）。
+- **Codex**：用 `codex plugin list` 核对；已装插件在下一个会话生效。
+
 ## 质量与安全
 
 - 每个插件带真实测试套件（blender：419；maya：227；stitch：269；processon：91+；dreamina-design：861；dreamina-canvas：90；image-factory：407+1000 子测试；video-factory：6），全部进 CI。

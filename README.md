@@ -105,6 +105,12 @@ Or add an individual plugin repository's GitHub URL from the `/plugins` panel.
 
 Add this repository as a third-party marketplace; the `.agents/plugins/marketplace.json` manifest is Claude-compatible.
 
+## After install — where to find things
+
+- **ZCode**: installed plugins appear in the plugins panel's **installed** view (and the icon strip). Skills, slash commands, and MCP tools only appear in sessions **started after** the install — open a new session. The panel's "还没有个人插件 … use /plugin builder" empty state refers to plugins *created in-session with the builder* — a different concept from marketplace plugins; ours live under the **partme-ai** market segment.
+- **Kimi Code CLI**: there is no obvious "add marketplace" button — type the `/plugins marketplace <url>` slash command in a session, or add individual plugin repositories by GitHub URL from the `/plugins` panel. Installed plugins load in new sessions (`/reload` or `/new`).
+- **Codex**: verify with `codex plugin list`; installed plugins are active in the next session.
+
 ## Quality & security
 
 - Every plugin ships a real test suite (blender: 419; maya: 227; stitch: 269; processon: 91+; dreamina-design: 861; dreamina-canvas: 90; image-factory: 407+1000 subtests; video-factory: 6) run in CI.
