@@ -145,7 +145,7 @@
         "ref": "main"
       },
       "description": "Automatic editing, video composition, synchronized review, recovery, and verified media receipts.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/codex-video-factory-plugin/main/assets/video-factory-cover.png",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png",
       "version": "0.1.0",
       "category": "Creativity",
       "tags": [
