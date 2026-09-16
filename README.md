@@ -2,14 +2,49 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-Tri-platform agent plugins for **Codex / ZCode / Kimi Code** (and Claude Code-compatible hosts). This repository is a thin marketplace index; plugin code lives in each plugin repository.
+![Platforms](https://img.shields.io/badge/hosts-Codex%20·%20ZCode%20·%20Kimi%20·%20Claude-blue)
+![Plugins](https://img.shields.io/badge/plugins-4-green)
+![License](https://img.shields.io/badge/license-Apache--2.0-orange)
 
-| Plugin | Platforms | What it does |
-|---|---|---|
-| [blender](https://github.com/partme-ai/partme-blender-plugin) | Codex · ZCode · Kimi · Claude | Design Blender scenes through a guarded harness: controlled operations, milestones, rollback, verified exports, white-model previs |
-| [maya](https://github.com/partme-ai/partme-maya-plugin) | Codex · ZCode · Kimi · Claude | Inspect Autodesk Maya scenes, reversible Playblasts, Jimeng handoff |
-| [stitch](https://github.com/partme-ai/partme-stitch-plugin) | Codex · ZCode · Kimi · Claude | Google Stitch design and design-to-code workflows |
-| [processon](https://github.com/partme-ai/partme-processon-plugin) | Codex · ZCode · Kimi · Claude | Editable ProcessOn diagrams, mind maps, and infographics |
+**One plugin, every coding agent.** PartMe.AI Plugins is a curated set of agent plugins that turn coding agents (Codex, ZCode, Kimi Code, Claude Code) into operators of professional creative tools — 3D design, UI design, and diagramming. Each plugin repository ships platform adapters so a single codebase is recognized and installed natively by all supported hosts; this repository is the thin marketplace index that makes them discoverable and installable in one place.
+
+## How it works
+
+Each plugin repository carries the full tri-platform adapter inside — the marketplace here holds no plugin code, only the index:
+
+```
+┌───────────────────────── one plugin repository ─────────────────────────┐
+│  skills/            platform-neutral capability packs (SKILL.md)         │
+│  commands/          slash-command set shared by ZCode & Kimi            │
+│  hooks/             advisory SessionStart / UserPromptSubmit hooks      │
+│  .codex-plugin/     → recognized by Codex                               │
+│  .zcode-plugin/     → recognized by ZCode                               │
+│  kimi.plugin.json   → recognized by Kimi Code CLI                       │
+│  .agents/plugins/   single-plugin marketplace (Codex / Claude)          │
+└──────────────────────────────────────────────────────────────────────────┘
+                                ▲ referenced by git source
+┌──────────────────────────────────────────────────────────────────────────┐
+│  partme-ai/plugins (this repo) — index manifests for four hosts          │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+## Plugins
+
+### [blender](https://github.com/partme-ai/partme-blender-plugin) — guarded Blender 3D design
+
+Drive a real Blender installation through a guarded local harness: structured scene operations with action-bound authorization, milestone screenshots for visual review, transaction rollback, background jobs, and verified multi-format exports (glTF/FBX/OBJ) with receipts. Includes white-model previs (shot table → render → Seedance handoff) and a validated Dreamina/Seedance pipeline. **31 skills · 10 slash commands · ~176 MCP tools · 3 hooks.**
+
+### [maya](https://github.com/partme-ai/partme-maya-plugin) — Autodesk Maya scene inspection & Playblast
+
+Read-only scene inspection (hierarchy, references, shading, timeline), reversible Playblast previews, runtime preflight that works even without Maya installed, and Jimeng upload handoff. **5 skills · 5 slash commands · 47-file test suite.**
+
+### [stitch](https://github.com/partme-ai/partme-stitch-plugin) — Google Stitch design & design-to-code
+
+Generate and edit UI screens with Google Stitch, manage design systems, run code-to-design round trips, and turn Stitch artifacts into frontend components (React/Vue ecosystems, shadcn/ui, Remotion). **43 skills · 9 slash commands · MCP proxy.**
+
+### [processon](https://github.com/partme-ai/partme-processon-plugin) — editable diagrams & infographics
+
+Professional, editable ProcessOn flowcharts, swimlanes, UML, architecture/ER diagrams, mind maps, timelines, org charts, and structured infographics — with a built-in quality-review workflow and a secret-free local stdio proxy (credentials stay with the user). **7 skills · 7 slash commands · MCP proxy.**
 
 ## Install
 
@@ -38,6 +73,14 @@ Or add an individual plugin repository's GitHub URL from the `/plugins` panel.
 ### Claude Code
 
 Add this repository as a third-party marketplace; the `.agents/plugins/marketplace.json` manifest is Claude-compatible.
+
+## Quality & security
+
+- Every plugin ships a real test suite (blender: 419 tests; maya: 227; stitch: 269; processon: 91+) run in CI.
+- Hooks are advisory-only: they report environment readiness, route intents, and remind about unfinished work — they never block a turn.
+- Destructive operations require action-bound authorization; exports and generated media come back with verified receipts.
+- The ProcessOn and Stitch integrations are secret-free: credentials are configured by the user, never embedded.
+- Vendored third-party skills keep their licenses and `THIRD_PARTY_NOTICES`.
 
 ## Release flow
 
