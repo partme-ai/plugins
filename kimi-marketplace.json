@@ -1,13 +1,4 @@
 {
   "version": "2",
-  "plugins": [
-    {
-      "id": "stitch",
-      "source": "https://github.com/partme-ai/partme-stitch-plugin"
-    },
-    {
-      "id": "processon",
-      "source": "https://github.com/partme-ai/partme-processon-plugin"
-    }
-  ]
+  "plugins": []
 }
