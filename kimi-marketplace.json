@@ -20,6 +20,18 @@
     {
       "id": "dreamina-design",
       "source": "https://github.com/partme-ai/codex-dreamina-design-plugin"
+    },
+    {
+      "id": "dreamina-canvas",
+      "source": "https://github.com/partme-ai/codex-dreamina-canvas-plugin"
+    },
+    {
+      "id": "image-factory",
+      "source": "https://github.com/partme-ai/codex-image-factory-plugin"
+    },
+    {
+      "id": "video-factory",
+      "source": "https://github.com/partme-ai/codex-video-factory-plugin"
     }
   ]
 }

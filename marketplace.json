@@ -102,6 +102,57 @@
         "seedance",
         "text2video"
       ]
+    },
+    {
+      "name": "dreamina-canvas",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-dreamina-canvas-plugin",
+        "ref": "main"
+      },
+      "description": "Dreamina Canvas workflows for structured nodes, timelines, quoted runs, recovery, and assets.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-dreamina-canvas-plugin/main/assets/logo.png",
+      "version": "0.1.2",
+      "category": "Creativity",
+      "tags": [
+        "dreamina",
+        "canvas",
+        "timeline"
+      ]
+    },
+    {
+      "name": "image-factory",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-image-factory-plugin",
+        "ref": "main"
+      },
+      "description": "Batch image production with attributed prompt discovery, verified receipts, evaluation, and prompt optimization.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-image-factory-plugin/main/assets/logo.png",
+      "version": "0.1.2",
+      "category": "Creativity",
+      "tags": [
+        "image",
+        "batch",
+        "receipts"
+      ]
+    },
+    {
+      "name": "video-factory",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/codex-video-factory-plugin",
+        "ref": "main"
+      },
+      "description": "Automatic editing, video composition, synchronized review, recovery, and verified media receipts.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/codex-video-factory-plugin/main/assets/logo.png",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "video",
+        "editing",
+        "receipts"
+      ]
     }
   ]
 }
