@@ -176,6 +176,27 @@
         "mcp"
       ],
       "displayName": "宝塔 Linux 面板"
+    },
+    {
+      "name": "comfy",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-comfy-plugin",
+        "ref": "main"
+      },
+      "description": "Comfy Cloud for coding agents — generate images, video, audio, and 3D, search models, nodes, and templates, and run ComfyUI workflows via the hosted Comfy MCP.",
+      "description_i18n": {
+        "en": "Comfy Cloud for coding agents — generate images, video, audio, and 3D, search models, nodes, and templates, and run ComfyUI workflows via the hosted Comfy MCP.",
+        "zh-CN": "编码智能体直连 Comfy Cloud：文生图/视频/音频/3D，搜索模型、节点与模板，经托管 Comfy MCP 运行 ComfyUI 工作流。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-comfy-plugin/main/assets/logo.png",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "comfy",
+        "comfyui",
+        "workflow"
+      ]
     }
   ],
   "displayName": "PartMe.AI 插件",

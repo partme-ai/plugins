@@ -36,6 +36,10 @@
     {
       "id": "bt",
       "source": "https://github.com/partme-ai/partme-bt-plugin"
+    },
+    {
+      "id": "comfy",
+      "source": "https://github.com/partme-ai/partme-comfy-plugin"
     }
   ]
 }

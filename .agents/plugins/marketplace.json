@@ -185,6 +185,19 @@
         "shortDescription": "Operate Baota Linux panel via MCP",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png"
       }
+    },
+    {
+      "name": "partme-comfy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-comfy-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity"
     }
   ]
 }
