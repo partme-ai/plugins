@@ -174,7 +174,13 @@
         "bt-panel",
         "linux-ops",
         "mcp"
-      ]
+      ],
+      "displayName": "宝塔 Linux 面板"
     }
-  ]
+  ],
+  "displayName": "PartMe.AI 插件",
+  "description_i18n": {
+    "en": "PartMe.AI plugin marketplace: tri-platform (Codex / ZCode / Kimi Code) creative and productivity plugins.",
+    "zh-CN": "PartMe.AI 插件市场：Codex / ZCode / Kimi Code 三平台的创作与效率插件。"
+  }
 }
