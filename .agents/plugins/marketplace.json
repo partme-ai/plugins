@@ -19,7 +19,12 @@
       },
       "category": "Creativity",
       "version": "0.3.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png",
+      "interface": {
+        "displayName": "Codex Blender",
+        "shortDescription": "Design, review, and export Blender projects with Codex",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-maya",
@@ -34,7 +39,12 @@
       },
       "category": "Creativity",
       "version": "0.1.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png",
+      "interface": {
+        "displayName": "Codex Maya",
+        "shortDescription": "Create safe Maya Playblasts and Jimeng links",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png"
+      }
     },
     {
       "name": "stitch-design",
@@ -49,7 +59,12 @@
       },
       "category": "Design",
       "version": "0.7.8",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png",
+      "interface": {
+        "displayName": "Stitch Design",
+        "shortDescription": "Design and build with Google Stitch",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-processon-plugin",
@@ -64,7 +79,12 @@
       },
       "category": "Productivity",
       "version": "0.2.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png",
+      "interface": {
+        "displayName": "ProcessOn",
+        "shortDescription": "Design polished, editable ProcessOn diagrams",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-dreamina-design",
@@ -79,7 +99,12 @@
       },
       "category": "Creativity",
       "version": "0.4.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo.png",
+      "interface": {
+        "displayName": "Dreamina Design",
+        "shortDescription": "Create images and videos with Dreamina",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-dreamina-canvas",
@@ -94,7 +119,12 @@
       },
       "category": "Creativity",
       "version": "0.1.2",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/logo.png",
+      "interface": {
+        "displayName": "Dreamina Canvas",
+        "shortDescription": "Build and run structured Dreamina canvases",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-image-factory",
@@ -109,7 +139,12 @@
       },
       "category": "Creativity",
       "version": "0.1.2",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo.png",
+      "interface": {
+        "displayName": "Codex Image Factory",
+        "shortDescription": "Discover, batch-produce, and evaluate images with Codex",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo.png"
+      }
     },
     {
       "name": "codex-video-factory",
@@ -124,7 +159,12 @@
       },
       "category": "Creativity",
       "version": "0.1.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png",
+      "interface": {
+        "displayName": "Codex Video Factory",
+        "shortDescription": "Analyze, edit, compose, and verify videos with Codex",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png"
+      }
     },
     {
       "name": "codex-bt",
@@ -139,7 +179,12 @@
       },
       "category": "Productivity",
       "version": "1.0.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png"
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png",
+      "interface": {
+        "displayName": "Codex Baota",
+        "shortDescription": "Operate Baota Linux panel via MCP",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png"
+      }
     }
   ]
 }
