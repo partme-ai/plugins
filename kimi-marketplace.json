@@ -32,10 +32,6 @@
     {
       "id": "video-factory",
       "source": "https://github.com/partme-ai/partme-video-factory"
-    },
-    {
-      "id": "bt",
-      "source": "https://github.com/partme-ai/partme-bt-plugin"
     }
   ]
 }

@@ -153,28 +153,6 @@
         "editing",
         "receipts"
       ]
-    },
-    {
-      "name": "bt",
-      "source": {
-        "source": "github",
-        "repo": "partme-ai/partme-bt-plugin",
-        "ref": "main"
-      },
-      "description": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, drive 98 panel tools via Streamable HTTP + Bearer Token.",
-      "description_i18n": {
-        "en": "Operate Baota (BT) Linux panel 13.0 through the MCP protocol — diagnose sites/databases/services, audit security, drive 98 panel tools via Streamable HTTP + Bearer Token.",
-        "zh-CN": "通过 MCP 协议操作宝塔（BT）Linux 面板 13.0：诊断网站/数据库/服务、审计安全、远程调用 98 个面板工具（Streamable HTTP + Bearer Token）。"
-      },
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png",
-      "version": "1.0.0",
-      "category": "Productivity",
-      "tags": [
-        "baota",
-        "bt-panel",
-        "linux-ops",
-        "mcp"
-      ]
     }
   ]
 }
