@@ -66,7 +66,7 @@
       "name": "codex-dreamina-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/codex-dreamina-design-plugin.git",
+        "url": "https://github.com/partme-ai/partme-dreamina-design.git",
         "ref": "main"
       },
       "policy": {
@@ -80,7 +80,7 @@
       "name": "codex-dreamina-canvas",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/codex-dreamina-canvas-plugin.git",
+        "url": "https://github.com/partme-ai/partme-dreamina-canvas.git",
         "ref": "main"
       },
       "policy": {
@@ -94,7 +94,7 @@
       "name": "codex-image-factory",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/codex-image-factory-plugin.git",
+        "url": "https://github.com/partme-ai/partme-image-factory.git",
         "ref": "main"
       },
       "policy": {
@@ -108,7 +108,7 @@
       "name": "codex-video-factory",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/codex-video-factory-plugin.git",
+        "url": "https://github.com/partme-ai/partme-video-factory.git",
         "ref": "main"
       },
       "policy": {
