@@ -1,5 +1,7 @@
 # PartMe.AI Plugins
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Tri-platform agent plugins for **Codex / ZCode / Kimi Code** (and Claude Code-compatible hosts). This repository is a thin marketplace index; plugin code lives in each plugin repository.
 
 | Plugin | Platforms | What it does |
@@ -31,7 +33,7 @@ codex plugin add codex-processon-plugin@partme-ai
 /plugins marketplace https://raw.githubusercontent.com/partme-ai/plugins/main/kimi-marketplace.json
 ```
 
-或在 `/plugins` 面板直接添加单个插件仓库的 GitHub URL。
+Or add an individual plugin repository's GitHub URL from the `/plugins` panel.
 
 ### Claude Code
 
@@ -48,3 +50,7 @@ A plugin repository releases independently; then bump its `version` in the three
 | `marketplace.json` | ZCode |
 | `.agents/plugins/marketplace.json` | Codex, Claude Code |
 | `kimi-marketplace.json` | Kimi Code CLI |
+
+## License
+
+Apache-2.0. Each plugin repository carries its own license and third-party notices.
