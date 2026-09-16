@@ -73,7 +73,8 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "Creativity",
+      "version": "0.4.0"
     },
     {
       "name": "codex-dreamina-canvas",
@@ -86,7 +87,8 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "Creativity",
+      "version": "0.1.2"
     },
     {
       "name": "codex-image-factory",
@@ -99,7 +101,8 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "Creativity",
+      "version": "0.1.2"
     },
     {
       "name": "codex-video-factory",
@@ -112,7 +115,8 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "Creativity",
+      "version": "0.1.0"
     }
   ]
 }
