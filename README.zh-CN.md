@@ -3,10 +3,10 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 ![Platforms](https://img.shields.io/badge/hosts-Codex%20·%20ZCode%20·%20Kimi%20·%20Claude-blue)
-![Plugins](https://img.shields.io/badge/plugins-4-green)
+![Plugins](https://img.shields.io/badge/plugins-8-green)
 ![License](https://img.shields.io/badge/license-Apache--2.0-orange)
 
-**一套插件，全平台宿主通用。** PartMe.AI 插件集把编程智能体（Codex、ZCode、Kimi Code、Claude Code）变成专业创作工具的操作者——三维设计、UI 设计、图表绘制。每个插件仓库内置全平台适配层，同一份代码被所有受支持宿主原生识别与安装；本仓库是薄索引市场，让它们可被统一发现、一次安装。
+**一套插件，全平台宿主通用。** PartMe.AI 插件集包含八个智能体插件，把编程智能体（Codex、ZCode、Kimi Code、Claude Code）变成专业创作工具的操作者——三维设计、AI 图像/视频生成、UI 设计、图表绘制。每个插件仓库内置全平台适配层，同一份代码被所有受支持宿主原生识别与安装；本仓库是薄索引市场，让它们可被统一发现、一次安装。
 
 ## 工作原理
 
@@ -30,21 +30,48 @@
 
 ## 插件
 
+| 插件 | 版本 | 技能 | 斜杠命令 | MCP |
+|---|---|---|---|---|
+| [blender](https://github.com/partme-ai/partme-blender-plugin) | 0.3.0 | 31 | 10 | ✓（本地 Harness） |
+| [maya](https://github.com/partme-ai/partme-maya-plugin) | 0.1.0 | 5 | 5 | — |
+| [stitch](https://github.com/partme-ai/partme-stitch-plugin) | 0.7.8 | 43 | 9 | ✓（代理） |
+| [processon](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | 7 | 7 | ✓（代理） |
+| [dreamina-design](https://github.com/partme-ai/partme-dreamina-design) | 0.4.0 | 19 | 9 | ✓ |
+| [dreamina-canvas](https://github.com/partme-ai/partme-dreamina-canvas) | 0.1.2 | 13 | 10 | — |
+| [image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | 4 | 4 | — |
+| [video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | 5 | 5 | — |
+
 ### [blender](https://github.com/partme-ai/partme-blender-plugin) — 受保护的 Blender 三维设计
 
-通过受控本地 Harness 驱动真实 Blender 安装：带动作绑定授权的结构化场景操作、里程碑截图做视觉评审、事务回滚、后台作业、附验证回执的多格式导出（glTF/FBX/OBJ）。含白模预演（镜头表→渲染→Seedance 交接）与已验证的即梦/Dreamina 流水线。**31 个技能 · 10 条斜杠命令 · 约 176 个 MCP 工具 · 3 个钩子。**
+通过受控本地 Harness 驱动真实 Blender 安装：带动作绑定授权的结构化场景操作、里程碑截图做视觉评审、事务回滚、后台作业、附验证回执的多格式导出（glTF/FBX/OBJ）。含白模预演（镜头表→渲染→Seedance 交接）与已验证的即梦/Dreamina 流水线。**31 个技能 · 10 条斜杠命令 · 约 176 个 MCP 工具 · 3 个钩子 · 419 项测试。**
 
 ### [maya](https://github.com/partme-ai/partme-maya-plugin) — Autodesk Maya 场景检查与 Playblast
 
-只读场景检查（层级、引用、着色、时间轴）、可回滚 Playblast 预览、未装 Maya 也能跑的运行时预检、即梦上传交接。**5 个技能 · 5 条斜杠命令 · 47 个测试文件。**
+只读场景检查（层级、引用、着色、时间轴）、可回滚 Playblast 预览、未装 Maya 也能跑的运行时预检、即梦上传交接。**5 个技能 · 5 条斜杠命令 · 227 项测试。**
 
 ### [stitch](https://github.com/partme-ai/partme-stitch-plugin) — Google Stitch 设计与设计转代码
 
-用 Google Stitch 生成与编辑 UI 界面、管理设计系统、代码↔设计双向同步、把 Stitch 产物转成前端组件（React/Vue 生态、shadcn/ui、Remotion）。**43 个技能 · 9 条斜杠命令 · MCP 代理。**
+用 Google Stitch 生成与编辑 UI 界面、管理设计系统、代码↔设计双向同步、把 Stitch 产物转成前端组件（React/Vue 生态、shadcn/ui、Remotion）。**43 个技能 · 9 条斜杠命令 · MCP 代理 · 269 项测试。**
 
 ### [processon](https://github.com/partme-ai/partme-processon-plugin) — 可编辑图表与信息图
 
-专业可编辑的 ProcessOn 流程图、泳道图、UML、架构/ER 图、思维导图、时间轴、组织架构与结构化信息图——内置质量评审工作流，采用无密钥本地 stdio 代理（凭据始终由用户自持）。**7 个技能 · 7 条斜杠命令 · MCP 代理。**
+专业可编辑的 ProcessOn 流程图、泳道图、UML、架构/ER 图、思维导图、时间轴、组织架构与结构化信息图——内置质量评审工作流，采用无密钥本地 stdio 代理（凭据始终由用户自持）。**7 个技能 · 7 条斜杠命令 · MCP 代理 · 91+ 项测试。**
+
+### [dreamina-design](https://github.com/partme-ai/partme-dreamina-design) — 即梦图像与视频生成
+
+完整的即梦（Dreamina）图像与视频生成：经官方 CLI 的文生图、图生图、图生视频与多模态视频，为标准账号提供浏览器 CLI 降级通道，每种模式都有提示词打磨指南，另含镜头标注、成片评审、已验证的 Seedance 自动流水线与断点续跑。**19 个技能 · 9 条斜杠命令 · MCP · 861 项测试。**
+
+### [dreamina-canvas](https://github.com/partme-ai/partme-dreamina-canvas) — 即梦画布节点与时间线工作流
+
+结构化的即梦画布自动化：创建画布、编排多节点图（文本/元素/图像/视频/音频）、逐节点生成媒体、管理视觉+音频时间线、带审批绑定的报价-确认-运行、下载已验证资产、异步操作断点续跑。**13 个技能 · 10 条斜杠命令 · 90 项测试。**
+
+### [image-factory](https://github.com/partme-ai/partme-image-factory) — 批量图像生产
+
+带出处的提示词发现、附验证回执的批量出图、像素级指标评审，以及闭环提示词优化（拒绝→优化→重生成直到通过）。**4 个技能 · 4 条斜杠命令 · 407 项测试 + 1000 子测试。**
+
+### [video-factory](https://github.com/partme-ai/partme-video-factory) — 自动视频剪辑与合成
+
+计划/执行/评审/恢复四段式自动剪辑：时间线驱动的合成、同步评审、中断作业恢复、媒体验证回执。**5 个技能 · 5 条斜杠命令 · 6 项测试。**
 
 ## 安装
 
@@ -56,6 +83,10 @@ codex plugin add codex-blender@partme-ai
 codex plugin add codex-maya@partme-ai
 codex plugin add stitch-design@partme-ai
 codex plugin add codex-processon-plugin@partme-ai
+codex plugin add codex-dreamina-design@partme-ai
+codex plugin add codex-dreamina-canvas@partme-ai
+codex plugin add codex-image-factory@partme-ai
+codex plugin add codex-video-factory@partme-ai
 ```
 
 ### ZCode
@@ -76,10 +107,10 @@ codex plugin add codex-processon-plugin@partme-ai
 
 ## 质量与安全
 
-- 每个插件带真实测试套件（blender：419 项；maya：227 项；stitch：272 项；processon：91+ 项），全部进 CI。
+- 每个插件带真实测试套件（blender：419；maya：227；stitch：269；processon：91+；dreamina-design：861；dreamina-canvas：90；image-factory：407+1000 子测试；video-factory：6），全部进 CI。
 - 钩子只做提示：报告环境就绪度、路由意图、提醒未收尾工作——**永不阻断回合**。
 - 破坏性操作需要动作绑定授权；导出与生成的媒体都附带验证回执。
-- ProcessOn 与 Stitch 集成是无密钥设计：凭据由用户配置，绝不内嵌。
+- ProcessOn、Stitch 与即梦集成均为无密钥设计：凭据由用户配置或宿主 CLI 登录态提供，绝不内嵌。
 - vendor 进来的第三方技能保留其许可证与 `THIRD_PARTY_NOTICES`。
 
 ## 发布流程
