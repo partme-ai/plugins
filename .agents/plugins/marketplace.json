@@ -3,14 +3,14 @@
   "description": "PartMe.AI plugin marketplace for Codex, ZCode, and Kimi Code.",
   "owner": {
     "name": "PartMe.AI",
-    "url": "https://github.com/partme-ai"
+    "url": "https://atomgit.com/partme-ai"
   },
   "plugins": [
     {
       "name": "maya-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-maya-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-maya-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -20,18 +20,18 @@
       "category": "Creativity",
       "version": "0.1.0",
       "description": "Inspect Autodesk Maya scenes, create reversible Playblasts, and produce verified Jimeng links.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "Autodesk Maya Design",
         "shortDescription": "Inspect scenes and create reversible Playblasts",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png"
       }
     },
     {
       "name": "blender-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-blender-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-blender-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -41,18 +41,18 @@
       "category": "Creativity",
       "version": "0.3.0",
       "description": "Design, review, and export Blender scenes through controlled operations, visual milestones, and recovery checkpoints.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "Blender Design",
         "shortDescription": "Design, review, and export Blender projects",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png"
       }
     },
     {
       "name": "comfy-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-comfy-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-comfy-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -62,18 +62,18 @@
       "category": "Creativity",
       "version": "0.1.0",
       "description": "Generate images, video, audio, and 3D, search models and nodes, and run Comfy Cloud workflows through MCP.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "Comfy Design",
         "shortDescription": "Comfy Cloud generation workflows",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png"
       }
     },
     {
       "name": "dreamina-canvas",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-dreamina-canvas.git",
+        "url": "https://atomgit.com/partme-ai/partme-dreamina-canvas.git",
         "ref": "main"
       },
       "policy": {
@@ -83,18 +83,18 @@
       "category": "Creativity",
       "version": "0.1.2",
       "description": "Build and run Dreamina Canvas node graphs and timelines with approval-aware execution, recovery, and verified assets.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png",
       "interface": {
         "displayName": "Dreamina Canvas",
         "shortDescription": "Build and run structured Dreamina canvases",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png"
       }
     },
     {
       "name": "dreamina-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-dreamina-design.git",
+        "url": "https://atomgit.com/partme-ai/partme-dreamina-design.git",
         "ref": "main"
       },
       "policy": {
@@ -104,18 +104,18 @@
       "category": "Creativity",
       "version": "0.4.0",
       "description": "Create and edit Dreamina images and videos with approval-aware, resumable operations and verified downloads.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png",
+      "icon": "https://atomgit.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png",
       "interface": {
         "displayName": "Dreamina Design",
         "shortDescription": "Create images and videos with Dreamina",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png"
+        "logo": "https://atomgit.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png"
       }
     },
     {
       "name": "stitch-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-stitch-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-stitch-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -125,18 +125,18 @@
       "category": "Creativity",
       "version": "0.7.8",
       "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "Google Stitch Design",
         "shortDescription": "Design and build with Google Stitch",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png"
       }
     },
     {
       "name": "image-factory",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-image-factory.git",
+        "url": "https://atomgit.com/partme-ai/partme-image-factory.git",
         "ref": "main"
       },
       "policy": {
@@ -146,18 +146,18 @@
       "category": "Creativity",
       "version": "0.1.2",
       "description": "Discover prompts, batch-produce and evaluate images, and record verified artifact receipts.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo-approved.png",
+      "icon": "https://atomgit.com/partme-ai/partme-image-factory/main/assets/logo-approved.png",
       "interface": {
         "displayName": "Image Factory",
         "shortDescription": "Discover, batch-produce, and evaluate images",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo-approved.png"
+        "logo": "https://atomgit.com/partme-ai/partme-image-factory/main/assets/logo-approved.png"
       }
     },
     {
       "name": "processon-design",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-processon-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-processon-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -167,18 +167,18 @@
       "category": "Creativity",
       "version": "0.2.0",
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "ProcessOn Design",
         "shortDescription": "Design polished, editable ProcessOn diagrams",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png"
       }
     },
     {
       "name": "video-factory",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-video-factory.git",
+        "url": "https://atomgit.com/partme-ai/partme-video-factory.git",
         "ref": "main"
       },
       "policy": {
@@ -188,18 +188,18 @@
       "category": "Creativity",
       "version": "0.1.0",
       "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/logo-approved.png",
+      "icon": "https://atomgit.com/partme-ai/partme-video-factory/main/assets/logo-approved.png",
       "interface": {
         "displayName": "Video Factory",
         "shortDescription": "Edit, compose, review, and verify videos",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/logo-approved.png"
+        "logo": "https://atomgit.com/partme-ai/partme-video-factory/main/assets/logo-approved.png"
       }
     },
     {
       "name": "bt-linux-panel",
       "source": {
         "source": "url",
-        "url": "https://github.com/partme-ai/partme-bt-plugin.git",
+        "url": "https://atomgit.com/partme-ai/partme-bt-plugin.git",
         "ref": "main"
       },
       "policy": {
@@ -209,11 +209,11 @@
       "category": "Productivity",
       "version": "1.0.0",
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
+      "icon": "https://atomgit.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "宝塔 Linux 面板",
         "shortDescription": "Operate Baota Linux panel via MCP",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png"
+        "logo": "https://atomgit.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png"
       }
     }
   ],

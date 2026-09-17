@@ -4,52 +4,52 @@
     {
       "id": "maya-design",
       "displayName": "Autodesk Maya Design",
-      "source": "https://github.com/partme-ai/partme-maya-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-maya-plugin"
     },
     {
       "id": "blender-design",
       "displayName": "Blender Design",
-      "source": "https://github.com/partme-ai/partme-blender-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-blender-plugin"
     },
     {
       "id": "comfy-design",
       "displayName": "Comfy Design",
-      "source": "https://github.com/partme-ai/partme-comfy-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-comfy-plugin"
     },
     {
       "id": "dreamina-canvas",
       "displayName": "Dreamina Canvas",
-      "source": "https://github.com/partme-ai/partme-dreamina-canvas"
+      "source": "https://atomgit.com/partme-ai/partme-dreamina-canvas"
     },
     {
       "id": "dreamina-design",
       "displayName": "Dreamina Design",
-      "source": "https://github.com/partme-ai/partme-dreamina-design"
+      "source": "https://atomgit.com/partme-ai/partme-dreamina-design"
     },
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
-      "source": "https://github.com/partme-ai/partme-stitch-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-stitch-plugin"
     },
     {
       "id": "image-factory",
       "displayName": "Image Factory",
-      "source": "https://github.com/partme-ai/partme-image-factory"
+      "source": "https://atomgit.com/partme-ai/partme-image-factory"
     },
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
-      "source": "https://github.com/partme-ai/partme-processon-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-processon-plugin"
     },
     {
       "id": "video-factory",
       "displayName": "Video Factory",
-      "source": "https://github.com/partme-ai/partme-video-factory"
+      "source": "https://atomgit.com/partme-ai/partme-video-factory"
     },
     {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
-      "source": "https://github.com/partme-ai/partme-bt-plugin"
+      "source": "https://atomgit.com/partme-ai/partme-bt-plugin"
     }
   ]
 }

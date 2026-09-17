@@ -12,22 +12,22 @@ PartMe.AI Plugins is the central catalog for ten independently released plugins.
 
 | Display name | Plugin ID | Repository | Version | Logo |
 |---|---|---|---|---|
-| Autodesk Maya Design | `maya-design` | [partme-maya-plugin](https://github.com/partme-ai/partme-maya-plugin) | 0.1.0 | `assets/official-logo.png` |
-| Blender Design | `blender-design` | [partme-blender-plugin](https://github.com/partme-ai/partme-blender-plugin) | 0.3.0 | `assets/official-logo.png` |
-| Comfy Design | `comfy-design` | [partme-comfy-plugin](https://github.com/partme-ai/partme-comfy-plugin) | 0.1.0 | `assets/official-logo.png` |
-| Dreamina Canvas | `dreamina-canvas` | [partme-dreamina-canvas](https://github.com/partme-ai/partme-dreamina-canvas) | 0.1.2 | `assets/official-logo.png` |
-| Dreamina Design | `dreamina-design` | [partme-dreamina-design](https://github.com/partme-ai/partme-dreamina-design) | 0.4.0 | `assets/logo-approved.png` |
-| Google Stitch Design | `stitch-design` | [partme-stitch-plugin](https://github.com/partme-ai/partme-stitch-plugin) | 0.7.8 | `assets/official-logo.png` |
-| Image Factory | `image-factory` | [partme-image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
-| ProcessOn Design | `processon-design` | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
-| Video Factory | `video-factory` | [partme-video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
-| 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
+| Autodesk Maya Design | `maya-design` | [partme-maya-plugin](https://atomgit.com/partme-ai/partme-maya-plugin) | 0.1.0 | `assets/official-logo.png` |
+| Blender Design | `blender-design` | [partme-blender-plugin](https://atomgit.com/partme-ai/partme-blender-plugin) | 0.3.0 | `assets/official-logo.png` |
+| Comfy Design | `comfy-design` | [partme-comfy-plugin](https://atomgit.com/partme-ai/partme-comfy-plugin) | 0.1.0 | `assets/official-logo.png` |
+| Dreamina Canvas | `dreamina-canvas` | [partme-dreamina-canvas](https://atomgit.com/partme-ai/partme-dreamina-canvas) | 0.1.2 | `assets/official-logo.png` |
+| Dreamina Design | `dreamina-design` | [partme-dreamina-design](https://atomgit.com/partme-ai/partme-dreamina-design) | 0.4.0 | `assets/logo-approved.png` |
+| Google Stitch Design | `stitch-design` | [partme-stitch-plugin](https://atomgit.com/partme-ai/partme-stitch-plugin) | 0.7.8 | `assets/official-logo.png` |
+| Image Factory | `image-factory` | [partme-image-factory](https://atomgit.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
+| ProcessOn Design | `processon-design` | [partme-processon-plugin](https://atomgit.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
+| Video Factory | `video-factory` | [partme-video-factory](https://atomgit.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
+| 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://atomgit.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
 
 Entries are alphabetized by display name. Existing Codex plugin IDs are the canonical IDs for all three platforms.
 
 ### Planning repository
 
-[`partme-cine-planning`](https://github.com/partme-ai/partme-cine-planning) is managed here as `design_baseline_not_released`. Its `director`, `script`, and `storyboard` modules contain specifications only. It intentionally has no plugin manifest and is excluded from all three installable marketplaces until its own release boundary is completed.
+[`partme-cine-planning`](https://atomgit.com/partme-ai/partme-cine-planning) is managed here as `design_baseline_not_released`. Its `director`, `script`, and `storyboard` modules contain specifications only. It intentionally has no plugin manifest and is excluded from all three installable marketplaces until its own release boundary is completed.
 
 ## Platform manifests
 
@@ -68,7 +68,7 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/partme-ai/plugins/main/kimi-marketplace.json
+/plugins marketplace https://atomgit.com/partme-ai/plugins/main/kimi-marketplace.json
 ```
 
 ### China mirror (AtomGit)
@@ -78,7 +78,7 @@ instead. Every install command stays the same — only the marketplace URL
 changes:
 
 ```bash
-codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git
+codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git --ref atomgit
 codex plugin add maya-design@partme-ai
 codex plugin add stitch-design@partme-ai
 # ... the remaining plugin lines are identical to the Codex section above

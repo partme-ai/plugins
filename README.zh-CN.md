@@ -12,22 +12,22 @@
 
 | 显示名称 | 插件 ID | 独立仓库 | 版本 | Logo |
 |---|---|---|---|---|
-| Autodesk Maya Design | `maya-design` | [partme-maya-plugin](https://github.com/partme-ai/partme-maya-plugin) | 0.1.0 | `assets/official-logo.png` |
-| Blender Design | `blender-design` | [partme-blender-plugin](https://github.com/partme-ai/partme-blender-plugin) | 0.3.0 | `assets/official-logo.png` |
-| Comfy Design | `comfy-design` | [partme-comfy-plugin](https://github.com/partme-ai/partme-comfy-plugin) | 0.1.0 | `assets/official-logo.png` |
-| Dreamina Canvas | `dreamina-canvas` | [partme-dreamina-canvas](https://github.com/partme-ai/partme-dreamina-canvas) | 0.1.2 | `assets/official-logo.png` |
-| Dreamina Design | `dreamina-design` | [partme-dreamina-design](https://github.com/partme-ai/partme-dreamina-design) | 0.4.0 | `assets/logo-approved.png` |
-| Google Stitch Design | `stitch-design` | [partme-stitch-plugin](https://github.com/partme-ai/partme-stitch-plugin) | 0.7.8 | `assets/official-logo.png` |
-| Image Factory | `image-factory` | [partme-image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
-| ProcessOn Design | `processon-design` | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
-| Video Factory | `video-factory` | [partme-video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
-| 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
+| Autodesk Maya Design | `maya-design` | [partme-maya-plugin](https://atomgit.com/partme-ai/partme-maya-plugin) | 0.1.0 | `assets/official-logo.png` |
+| Blender Design | `blender-design` | [partme-blender-plugin](https://atomgit.com/partme-ai/partme-blender-plugin) | 0.3.0 | `assets/official-logo.png` |
+| Comfy Design | `comfy-design` | [partme-comfy-plugin](https://atomgit.com/partme-ai/partme-comfy-plugin) | 0.1.0 | `assets/official-logo.png` |
+| Dreamina Canvas | `dreamina-canvas` | [partme-dreamina-canvas](https://atomgit.com/partme-ai/partme-dreamina-canvas) | 0.1.2 | `assets/official-logo.png` |
+| Dreamina Design | `dreamina-design` | [partme-dreamina-design](https://atomgit.com/partme-ai/partme-dreamina-design) | 0.4.0 | `assets/logo-approved.png` |
+| Google Stitch Design | `stitch-design` | [partme-stitch-plugin](https://atomgit.com/partme-ai/partme-stitch-plugin) | 0.7.8 | `assets/official-logo.png` |
+| Image Factory | `image-factory` | [partme-image-factory](https://atomgit.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
+| ProcessOn Design | `processon-design` | [partme-processon-plugin](https://atomgit.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
+| Video Factory | `video-factory` | [partme-video-factory](https://atomgit.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
+| 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://atomgit.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
 
 插件按显示名称字母顺序排列。现有 Codex 插件 ID 是三个平台共同使用的事实源。
 
 ### 规划仓库
 
-[`partme-cine-planning`](https://github.com/partme-ai/partme-cine-planning) 以 `design_baseline_not_released` 状态纳入本仓管理。其 `director`、`script`、`storyboard` 当前只有规格基线，按仓库自身发行边界刻意不提供插件 manifest，也不会进入三个平台的可安装市场；完成独立实现与发行门禁后再发布。
+[`partme-cine-planning`](https://atomgit.com/partme-ai/partme-cine-planning) 以 `design_baseline_not_released` 状态纳入本仓管理。其 `director`、`script`、`storyboard` 当前只有规格基线，按仓库自身发行边界刻意不提供插件 manifest，也不会进入三个平台的可安装市场；完成独立实现与发行门禁后再发布。
 
 ## 平台清单
 
@@ -68,7 +68,7 @@ codex plugin add bt-linux-panel@partme-ai
 ### Kimi Code CLI
 
 ```text
-/plugins marketplace https://raw.githubusercontent.com/partme-ai/plugins/main/kimi-marketplace.json
+/plugins marketplace https://atomgit.com/partme-ai/plugins/main/kimi-marketplace.json
 ```
 
 ### 国内镜像（AtomGit）
@@ -76,7 +76,7 @@ codex plugin add bt-linux-panel@partme-ai
 如果 GitHub 访问缓慢或不可达，改为添加本市场的 AtomGit 镜像。所有安装命令保持不变，只替换市场地址：
 
 ```bash
-codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git
+codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git --ref atomgit
 codex plugin add maya-design@partme-ai
 codex plugin add stitch-design@partme-ai
 # ……其余插件命令与上方 Codex 段完全一致
