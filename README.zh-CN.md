@@ -71,6 +71,25 @@ codex plugin add bt-linux-panel@partme-ai
 /plugins marketplace https://raw.githubusercontent.com/partme-ai/plugins/main/kimi-marketplace.json
 ```
 
+### 国内镜像（AtomGit）
+
+如果 GitHub 访问缓慢或不可达，改为添加本市场的 AtomGit 镜像。所有安装命令保持不变，只替换市场地址：
+
+```bash
+codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git
+codex plugin add maya-design@partme-ai
+codex plugin add stitch-design@partme-ai
+# ……其余插件命令与上方 Codex 段完全一致
+```
+
+ZCode：打开 设置 → 插件 → 创建 → 添加插件市场，输入 `atomgit.com/partme-ai/plugins`。Kimi Code：登记 AtomGit 原始端点上的 `kimi-marketplace.json` 地址，或克隆本仓库后登记本地文件。
+
+注意事项：
+
+- AtomGit 源与 GitHub 源共用市场名 `partme-ai`，后添加的会覆盖先添加的。切回官方源执行
+  `codex plugin marketplace add partme-ai/plugins`。
+- 镜像与官方源跟踪同一条 `main` 分支，双平台插件版本完全一致。
+
 ## 目录维护
 
 `catalog.json` 是市场元数据的唯一事实源。独立插件发布新版本后：

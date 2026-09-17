@@ -71,6 +71,32 @@ Open Settings → Plugins → Create → Add plugin marketplace, enter `partme-a
 /plugins marketplace https://raw.githubusercontent.com/partme-ai/plugins/main/kimi-marketplace.json
 ```
 
+### China mirror (AtomGit)
+
+If GitHub is slow or unreachable, add the AtomGit mirror of this marketplace
+instead. Every install command stays the same — only the marketplace URL
+changes:
+
+```bash
+codex plugin marketplace add https://atomgit.com/partme-ai/plugins.git
+codex plugin add maya-design@partme-ai
+codex plugin add stitch-design@partme-ai
+# ... the remaining plugin lines are identical to the Codex section above
+```
+
+For ZCode, open Settings → Plugins → Create → Add plugin marketplace and enter
+`atomgit.com/partme-ai/plugins`. For Kimi Code, register the mirrored
+`kimi-marketplace.json` URL from the AtomGit raw endpoint, or clone this
+repository and register the local file.
+
+Notes:
+
+- The AtomGit source and the GitHub source share the marketplace name
+  `partme-ai`, so adding one replaces the other. Switch back with
+  `codex plugin marketplace add partme-ai/plugins`.
+- The mirror tracks the same `main` branch; plugin versions are identical on
+  both platforms.
+
 ## Catalog maintenance
 
 `catalog.json` is the only marketplace metadata source of truth. After an independent plugin release:
