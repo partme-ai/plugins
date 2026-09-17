@@ -122,10 +122,10 @@
       "tags": ["video", "editing", "receipts"]
     },
     {
-      "id": "codelint",
+      "id": "codeguard",
       "displayName": "代码规范检查",
-      "repository": "partme-ai/partme-codelint",
-      "localDirectory": "partme-codelint",
+      "repository": "partme-ai/partme-codeguard-plugin",
+      "localDirectory": "partme-codeguard-plugin",
       "version": "0.2.0",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
       "shortDescription": "Make AI-written code pass lint on first try",
