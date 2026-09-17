@@ -163,7 +163,7 @@
         "ref": "main"
       },
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "Developer Tools",
       "tags": [
         "lint",
@@ -171,6 +171,9 @@
         "javadoc",
         "checkstyle",
         "clippy",
+        "golangci-lint",
+        "detekt",
+        "swiftlint",
         "eslint",
         "ruff",
         "pre-commit"
