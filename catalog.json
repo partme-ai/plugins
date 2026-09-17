@@ -1,0 +1,137 @@
+{
+  "name": "partme-ai",
+  "displayName": "PartMe.AI 插件",
+  "description": "PartMe.AI plugin marketplace for Codex, ZCode, and Kimi Code.",
+  "descriptionZhCn": "PartMe.AI 插件市场：面向 Codex、ZCode 与 Kimi Code 的创作和效率插件。",
+  "planningRepositories": [
+    {
+      "name": "PartMe.AI Cine Planning",
+      "localDirectory": "partme-cine-planning",
+      "repository": "partme-ai/partme-cine-planning",
+      "status": "design_baseline_not_released",
+      "modules": ["director", "script", "storyboard"]
+    }
+  ],
+  "plugins": [
+    {
+      "id": "maya-design",
+      "displayName": "Autodesk Maya Design",
+      "repository": "partme-ai/partme-maya-plugin",
+      "localDirectory": "partme-maya-plugin",
+      "version": "0.1.0",
+      "description": "Inspect Autodesk Maya scenes, create reversible Playblasts, and produce verified Jimeng links.",
+      "shortDescription": "Inspect scenes and create reversible Playblasts",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["maya", "3d", "playblast"]
+    },
+    {
+      "id": "blender-design",
+      "displayName": "Blender Design",
+      "repository": "partme-ai/partme-blender-plugin",
+      "localDirectory": "partme-blender-plugin",
+      "version": "0.3.0",
+      "description": "Design, review, and export Blender scenes through controlled operations, visual milestones, and recovery checkpoints.",
+      "shortDescription": "Design, review, and export Blender projects",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["blender", "3d", "previs"]
+    },
+    {
+      "id": "comfy-design",
+      "displayName": "Comfy Design",
+      "repository": "partme-ai/partme-comfy-plugin",
+      "localDirectory": "partme-comfy-plugin",
+      "version": "0.1.0",
+      "description": "Generate images, video, audio, and 3D, search models and nodes, and run Comfy Cloud workflows through MCP.",
+      "shortDescription": "Comfy Cloud generation workflows",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["comfy", "comfyui", "workflow"]
+    },
+    {
+      "id": "dreamina-canvas",
+      "displayName": "Dreamina Canvas",
+      "repository": "partme-ai/partme-dreamina-canvas",
+      "localDirectory": "partme-dreamina-canvas",
+      "version": "0.1.2",
+      "description": "Build and run Dreamina Canvas node graphs and timelines with approval-aware execution, recovery, and verified assets.",
+      "shortDescription": "Build and run structured Dreamina canvases",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["dreamina", "canvas", "timeline"]
+    },
+    {
+      "id": "dreamina-design",
+      "displayName": "Dreamina Design",
+      "repository": "partme-ai/partme-dreamina-design",
+      "localDirectory": "partme-dreamina-design",
+      "version": "0.4.0",
+      "description": "Create and edit Dreamina images and videos with approval-aware, resumable operations and verified downloads.",
+      "shortDescription": "Create images and videos with Dreamina",
+      "category": "Creativity",
+      "logo": "assets/logo-approved.png",
+      "tags": ["dreamina", "seedance", "text2video"]
+    },
+    {
+      "id": "stitch-design",
+      "displayName": "Google Stitch Design",
+      "repository": "partme-ai/partme-stitch-plugin",
+      "localDirectory": "partme-stitch-plugin",
+      "version": "0.7.8",
+      "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
+      "shortDescription": "Design and build with Google Stitch",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["stitch", "design", "design-to-code"]
+    },
+    {
+      "id": "image-factory",
+      "displayName": "Image Factory",
+      "repository": "partme-ai/partme-image-factory",
+      "localDirectory": "partme-image-factory",
+      "version": "0.1.2",
+      "description": "Discover prompts, batch-produce and evaluate images, and record verified artifact receipts.",
+      "shortDescription": "Discover, batch-produce, and evaluate images",
+      "category": "Creativity",
+      "logo": "assets/logo-approved.png",
+      "tags": ["image", "batch", "receipts"]
+    },
+    {
+      "id": "processon-design",
+      "displayName": "ProcessOn Design",
+      "repository": "partme-ai/partme-processon-plugin",
+      "localDirectory": "partme-processon-plugin",
+      "version": "0.2.0",
+      "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+      "shortDescription": "Design polished, editable ProcessOn diagrams",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": ["processon", "diagram", "mind-map"]
+    },
+    {
+      "id": "video-factory",
+      "displayName": "Video Factory",
+      "repository": "partme-ai/partme-video-factory",
+      "localDirectory": "partme-video-factory",
+      "version": "0.1.0",
+      "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts.",
+      "shortDescription": "Edit, compose, review, and verify videos",
+      "category": "Creativity",
+      "logo": "assets/logo-approved.png",
+      "tags": ["video", "editing", "receipts"]
+    },
+    {
+      "id": "bt-linux-panel",
+      "displayName": "宝塔 Linux 面板",
+      "repository": "partme-ai/partme-bt-plugin",
+      "localDirectory": "partme-bt-plugin",
+      "version": "1.0.0",
+      "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
+      "shortDescription": "Operate Baota Linux panel via MCP",
+      "category": "Productivity",
+      "logo": "assets/official-logo.png",
+      "tags": ["baota", "bt-panel", "linux-ops", "mcp"]
+    }
+  ]
+}
