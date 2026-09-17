@@ -196,6 +196,27 @@
       }
     },
     {
+      "name": "codelint",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-codelint.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools",
+      "version": "0.1.0",
+      "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-codelint/main/assets/official-logo.png",
+      "interface": {
+        "displayName": "代码规范检查",
+        "shortDescription": "Make AI-written code pass lint on first try",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-codelint/main/assets/official-logo.png"
+      }
+    },
+    {
       "name": "bt-linux-panel",
       "source": {
         "source": "url",

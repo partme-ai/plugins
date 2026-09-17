@@ -3,7 +3,7 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 ![Platforms](https://img.shields.io/badge/hosts-Codex%20·%20ZCode%20·%20Kimi-blue)
-![Plugins](https://img.shields.io/badge/plugins-10-green)
+![Plugins](https://img.shields.io/badge/plugins-11-green)
 ![License](https://img.shields.io/badge/license-Apache--2.0-orange)
 
 本仓库集中管理 10 个独立发布的 PartMe.AI 插件，只保存市场元数据，不复制插件运行代码。ID、显示名称、描述、版本、仓库地址、排序和 Logo 均由同一份中央目录统一生成到 Codex、ZCode、Kimi Code 三个平台。
@@ -21,6 +21,7 @@
 | Image Factory | `image-factory` | [partme-image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
 | ProcessOn Design | `processon-design` | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
 | Video Factory | `video-factory` | [partme-video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
+| 代码规范检查 | `codelint` | [partme-codelint](https://github.com/partme-ai/partme-codelint) | 0.1.0 | `assets/official-logo.png` |
 | 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
 
 插件按显示名称字母顺序排列。现有 Codex 插件 ID 是三个平台共同使用的事实源。
@@ -58,6 +59,7 @@ codex plugin add stitch-design@partme-ai
 codex plugin add image-factory@partme-ai
 codex plugin add processon-design@partme-ai
 codex plugin add video-factory@partme-ai
+codex plugin add codelint@partme-ai
 codex plugin add bt-linux-panel@partme-ai
 ```
 

@@ -3,7 +3,7 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 ![Platforms](https://img.shields.io/badge/hosts-Codex%20·%20ZCode%20·%20Kimi-blue)
-![Plugins](https://img.shields.io/badge/plugins-10-green)
+![Plugins](https://img.shields.io/badge/plugins-11-green)
 ![License](https://img.shields.io/badge/license-Apache--2.0-orange)
 
 PartMe.AI Plugins is the central catalog for ten independently released plugins. This repository contains marketplace metadata rather than plugin runtime code. One canonical catalog keeps IDs, display names, descriptions, versions, repositories, ordering, and logos aligned across Codex, ZCode, and Kimi Code.
@@ -21,6 +21,7 @@ PartMe.AI Plugins is the central catalog for ten independently released plugins.
 | Image Factory | `image-factory` | [partme-image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
 | ProcessOn Design | `processon-design` | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
 | Video Factory | `video-factory` | [partme-video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
+| 代码规范检查 | `codelint` | [partme-codelint](https://github.com/partme-ai/partme-codelint) | 0.1.0 | `assets/official-logo.png` |
 | 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
 
 Entries are alphabetized by display name. Existing Codex plugin IDs are the canonical IDs for all three platforms.
@@ -58,6 +59,7 @@ codex plugin add stitch-design@partme-ai
 codex plugin add image-factory@partme-ai
 codex plugin add processon-design@partme-ai
 codex plugin add video-factory@partme-ai
+codex plugin add codelint@partme-ai
 codex plugin add bt-linux-panel@partme-ai
 ```
 

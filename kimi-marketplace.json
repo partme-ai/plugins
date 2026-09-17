@@ -47,6 +47,11 @@
       "source": "https://github.com/partme-ai/partme-video-factory"
     },
     {
+      "id": "codelint",
+      "displayName": "代码规范检查",
+      "source": "https://github.com/partme-ai/partme-codelint"
+    },
+    {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
       "source": "https://github.com/partme-ai/partme-bt-plugin"

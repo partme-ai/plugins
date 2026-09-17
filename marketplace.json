@@ -17,8 +17,7 @@
         "3d",
         "playblast"
       ],
-      "strict": true,
-      "displayName": "Autodesk Maya Design"
+      "strict": true
     },
     {
       "name": "blender-design",
@@ -35,8 +34,7 @@
         "3d",
         "previs"
       ],
-      "strict": true,
-      "displayName": "Blender Design"
+      "strict": true
     },
     {
       "name": "comfy-design",
@@ -53,8 +51,7 @@
         "comfyui",
         "workflow"
       ],
-      "strict": true,
-      "displayName": "Comfy Design"
+      "strict": true
     },
     {
       "name": "dreamina-canvas",
@@ -71,8 +68,7 @@
         "canvas",
         "timeline"
       ],
-      "strict": true,
-      "displayName": "Dreamina Canvas"
+      "strict": true
     },
     {
       "name": "dreamina-design",
@@ -89,8 +85,7 @@
         "seedance",
         "text2video"
       ],
-      "strict": true,
-      "displayName": "Dreamina Design"
+      "strict": true
     },
     {
       "name": "stitch-design",
@@ -107,8 +102,7 @@
         "design",
         "design-to-code"
       ],
-      "strict": true,
-      "displayName": "Google Stitch Design"
+      "strict": true
     },
     {
       "name": "image-factory",
@@ -125,8 +119,7 @@
         "batch",
         "receipts"
       ],
-      "strict": true,
-      "displayName": "Image Factory"
+      "strict": true
     },
     {
       "name": "processon-design",
@@ -143,8 +136,7 @@
         "diagram",
         "mind-map"
       ],
-      "strict": true,
-      "displayName": "ProcessOn Design"
+      "strict": true
     },
     {
       "name": "video-factory",
@@ -161,8 +153,29 @@
         "editing",
         "receipts"
       ],
-      "strict": true,
-      "displayName": "Video Factory"
+      "strict": true
+    },
+    {
+      "name": "codelint",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-codelint",
+        "ref": "main"
+      },
+      "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
+      "version": "0.1.0",
+      "category": "Developer Tools",
+      "tags": [
+        "lint",
+        "code-style",
+        "javadoc",
+        "checkstyle",
+        "clippy",
+        "eslint",
+        "ruff",
+        "pre-commit"
+      ],
+      "strict": true
     },
     {
       "name": "bt-linux-panel",
@@ -180,8 +193,7 @@
         "linux-ops",
         "mcp"
       ],
-      "strict": true,
-      "displayName": "宝塔 Linux 面板"
+      "strict": true
     }
   ]
 }
