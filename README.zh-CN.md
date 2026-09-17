@@ -87,6 +87,8 @@ codex plugin add codex-dreamina-design@partme-ai
 codex plugin add codex-dreamina-canvas@partme-ai
 codex plugin add codex-image-factory@partme-ai
 codex plugin add codex-video-factory@partme-ai
+codex plugin add codex-bt@partme-ai
+codex plugin add partme-comfy@partme-ai
 ```
 
 ### ZCode

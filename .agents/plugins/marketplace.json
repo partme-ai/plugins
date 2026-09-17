@@ -1,6 +1,6 @@
 {
   "name": "partme-ai",
-  "description": "PartMe.AI plugin marketplace: tri-platform (Codex / ZCode / Kimi Code) creative and productivity plugins.",
+  "description": "PartMe.AI plugin marketplace for Codex, ZCode, and Kimi Code.",
   "owner": {
     "name": "PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -19,12 +19,7 @@
       },
       "category": "Creativity",
       "version": "0.3.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png",
-      "interface": {
-        "displayName": "Codex Blender",
-        "shortDescription": "Design, review, and export Blender projects with Codex",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/logo.png"
-      }
+      "description": "Design, review, and export Blender scenes through controlled operations, visual milestones, and recovery checkpoints."
     },
     {
       "name": "codex-maya",
@@ -39,12 +34,7 @@
       },
       "category": "Creativity",
       "version": "0.1.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png",
-      "interface": {
-        "displayName": "Codex Maya",
-        "shortDescription": "Create safe Maya Playblasts and Jimeng links",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/logo.png"
-      }
+      "description": "Inspect Autodesk Maya scenes, create reversible Playblasts, and produce verified handoff links."
     },
     {
       "name": "stitch-design",
@@ -57,14 +47,9 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Design",
+      "category": "Creativity",
       "version": "0.7.8",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png",
-      "interface": {
-        "displayName": "Stitch Design",
-        "shortDescription": "Design and build with Google Stitch",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/logo.png"
-      }
+      "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server."
     },
     {
       "name": "codex-processon-plugin",
@@ -77,14 +62,9 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Productivity",
+      "category": "Creativity",
       "version": "0.2.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png",
-      "interface": {
-        "displayName": "ProcessOn",
-        "shortDescription": "Design polished, editable ProcessOn diagrams",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/logo.png"
-      }
+      "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics."
     },
     {
       "name": "codex-dreamina-design",
@@ -99,12 +79,7 @@
       },
       "category": "Creativity",
       "version": "0.4.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo.png",
-      "interface": {
-        "displayName": "Dreamina Design",
-        "shortDescription": "Create images and videos with Dreamina",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo.png"
-      }
+      "description": "Create and edit Dreamina images and videos with approval-aware, resumable operations and verified downloads."
     },
     {
       "name": "codex-dreamina-canvas",
@@ -119,12 +94,7 @@
       },
       "category": "Creativity",
       "version": "0.1.2",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/logo.png",
-      "interface": {
-        "displayName": "Dreamina Canvas",
-        "shortDescription": "Build and run structured Dreamina canvases",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/logo.png"
-      }
+      "description": "Build and run Dreamina Canvas node graphs and timelines with approval-aware execution, recovery, and verified assets."
     },
     {
       "name": "codex-image-factory",
@@ -139,12 +109,7 @@
       },
       "category": "Creativity",
       "version": "0.1.2",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo.png",
-      "interface": {
-        "displayName": "Codex Image Factory",
-        "shortDescription": "Discover, batch-produce, and evaluate images with Codex",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo.png"
-      }
+      "description": "Discover prompts, batch-produce and evaluate images, and record verified artifact receipts."
     },
     {
       "name": "codex-video-factory",
@@ -159,12 +124,7 @@
       },
       "category": "Creativity",
       "version": "0.1.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png",
-      "interface": {
-        "displayName": "Codex Video Factory",
-        "shortDescription": "Analyze, edit, compose, and verify videos with Codex",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/video-factory-cover.png"
-      }
+      "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts."
     },
     {
       "name": "codex-bt",
@@ -179,12 +139,7 @@
       },
       "category": "Productivity",
       "version": "1.0.0",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png",
-      "interface": {
-        "displayName": "Codex Baota",
-        "shortDescription": "Operate Baota Linux panel via MCP",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/logo.png"
-      }
+      "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security."
     },
     {
       "name": "partme-comfy",
@@ -197,7 +152,12 @@
         "installation": "AVAILABLE",
         "authentication": "ON_USE"
       },
-      "category": "Creativity"
+      "category": "Creativity",
+      "version": "0.1.0",
+      "description": "Generate images, video, audio, and 3D, search models and nodes, and run Comfy Cloud workflows through MCP."
     }
-  ]
+  ],
+  "interface": {
+    "displayName": "PartMe.AI 插件"
+  }
 }

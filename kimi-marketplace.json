@@ -1,45 +1,15 @@
 {
   "version": "2",
   "plugins": [
-    {
-      "id": "blender",
-      "source": "https://github.com/partme-ai/partme-blender-plugin"
-    },
-    {
-      "id": "maya",
-      "source": "https://github.com/partme-ai/partme-maya-plugin"
-    },
-    {
-      "id": "stitch",
-      "source": "https://github.com/partme-ai/partme-stitch-plugin"
-    },
-    {
-      "id": "processon",
-      "source": "https://github.com/partme-ai/partme-processon-plugin"
-    },
-    {
-      "id": "dreamina-design",
-      "source": "https://github.com/partme-ai/partme-dreamina-design"
-    },
-    {
-      "id": "dreamina-canvas",
-      "source": "https://github.com/partme-ai/partme-dreamina-canvas"
-    },
-    {
-      "id": "image-factory",
-      "source": "https://github.com/partme-ai/partme-image-factory"
-    },
-    {
-      "id": "video-factory",
-      "source": "https://github.com/partme-ai/partme-video-factory"
-    },
-    {
-      "id": "bt",
-      "source": "https://github.com/partme-ai/partme-bt-plugin"
-    },
-    {
-      "id": "comfy",
-      "source": "https://github.com/partme-ai/partme-comfy-plugin"
-    }
+    {"id":"codex-blender","source":"https://github.com/partme-ai/partme-blender-plugin"},
+    {"id":"codex-maya","source":"https://github.com/partme-ai/partme-maya-plugin"},
+    {"id":"stitch-design","source":"https://github.com/partme-ai/partme-stitch-plugin"},
+    {"id":"codex-processon-plugin","source":"https://github.com/partme-ai/partme-processon-plugin"},
+    {"id":"codex-dreamina-design","source":"https://github.com/partme-ai/partme-dreamina-design"},
+    {"id":"codex-dreamina-canvas","source":"https://github.com/partme-ai/partme-dreamina-canvas"},
+    {"id":"codex-image-factory","source":"https://github.com/partme-ai/partme-image-factory"},
+    {"id":"codex-video-factory","source":"https://github.com/partme-ai/partme-video-factory"},
+    {"id":"codex-bt","source":"https://github.com/partme-ai/partme-bt-plugin"},
+    {"id":"partme-comfy","source":"https://github.com/partme-ai/partme-comfy-plugin"}
   ]
 }
