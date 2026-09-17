@@ -126,12 +126,12 @@
       "displayName": "代码规范检查",
       "repository": "partme-ai/partme-codelint",
       "localDirectory": "partme-codelint",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
       "shortDescription": "Make AI-written code pass lint on first try",
       "category": "Developer Tools",
       "logo": "assets/official-logo.png",
-      "tags": ["lint", "code-style", "javadoc", "checkstyle", "clippy", "eslint", "ruff", "pre-commit"]
+      "tags": ["lint", "code-style", "javadoc", "checkstyle", "clippy", "golangci-lint", "detekt", "swiftlint", "eslint", "ruff", "pre-commit"]
     },
     {
       "id": "bt-linux-panel",
