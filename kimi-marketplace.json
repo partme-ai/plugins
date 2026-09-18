@@ -48,7 +48,8 @@
       "id": "jianying-edit",
       "displayName": "JianYing Edit",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
-      "source": "https://github.com/partme-ai/partme-jianying-plugin"
+      "source": "https://github.com/partme-ai/partme-jianying-plugin",
+      "version": "0.2.0"
     },
     {
       "id": "minimax-design",
