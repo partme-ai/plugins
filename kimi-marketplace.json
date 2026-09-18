@@ -45,6 +45,12 @@
       "source": "https://github.com/partme-ai/partme-image-factory"
     },
     {
+      "id": "jianying-edit",
+      "displayName": "JianYing Edit",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-jianying-plugin"
+    },
+    {
       "id": "minimax-design",
       "displayName": "MiniMax Design",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
@@ -73,16 +79,6 @@
       "displayName": "宝塔 Linux 面板",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-bt-plugin"
-    },
-    {
-      "id": "jianying-edit",
-      "displayName": "JianYing Edit",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
-      "source": "https://github.com/partme-ai/partme-jianying-plugin"
-    },
-    {
-      "id": "volcengine-design",
-      "source": "https://github.com/partme-ai/partme-volcengine-design"
     }
   ]
 }

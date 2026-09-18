@@ -11,7 +11,7 @@
         "ref": "main"
       },
       "description": "Inspect Autodesk Maya scenes, create reversible Playblasts, and produce verified Jimeng links.",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "category": "Creativity",
       "tags": [
         "maya",
@@ -29,7 +29,7 @@
         "ref": "main"
       },
       "description": "Design, review, and export Blender scenes through controlled operations, visual milestones, and recovery checkpoints.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "category": "Creativity",
       "tags": [
         "blender",
@@ -47,7 +47,7 @@
         "ref": "main"
       },
       "description": "Generate images, video, audio, and 3D, search models and nodes, and run Comfy Cloud workflows through MCP.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "Creativity",
       "tags": [
         "comfy",
@@ -65,7 +65,7 @@
         "ref": "main"
       },
       "description": "Build and run Dreamina Canvas node graphs and timelines with approval-aware execution, recovery, and verified assets.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Creativity",
       "tags": [
         "dreamina",
@@ -83,7 +83,7 @@
         "ref": "main"
       },
       "description": "Create and edit Dreamina images and videos with approval-aware, resumable operations and verified downloads.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "category": "Creativity",
       "tags": [
         "dreamina",
@@ -101,7 +101,7 @@
         "ref": "main"
       },
       "description": "Create and edit Google Stitch screens, design systems, and frontend code through the remote Stitch MCP server.",
-      "version": "0.7.8",
+      "version": "0.7.9",
       "category": "Creativity",
       "tags": [
         "stitch",
@@ -119,7 +119,7 @@
         "ref": "main"
       },
       "description": "Discover prompts, batch-produce and evaluate images, and record verified artifact receipts.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Creativity",
       "tags": [
         "image",
@@ -130,6 +130,24 @@
       "strict": true
     },
     {
+      "name": "jianying-edit",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-jianying-plugin",
+        "ref": "main"
+      },
+      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — multi-track video/text/audio, non-destructive, verified.",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "jianying",
+        "capcut",
+        "video-editing"
+      ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
+      "strict": true
+    },
+    {
       "name": "minimax-design",
       "source": {
         "source": "github",
@@ -137,7 +155,7 @@
         "ref": "main"
       },
       "description": "Generate MiniMax H3 videos with env-var auth, first/last-frame FL2VA anchoring, resumable v2 queries, 11 vendored skills, plus commands, a prompt-writer subagent, and cross-platform credential setup.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "category": "Creativity",
       "tags": [
         "minimax",
@@ -155,7 +173,7 @@
         "ref": "main"
       },
       "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Creativity",
       "tags": [
         "processon",
@@ -173,7 +191,7 @@
         "ref": "main"
       },
       "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "Creativity",
       "tags": [
         "video",
@@ -191,7 +209,7 @@
         "ref": "main"
       },
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
-      "version": "0.3.2",
+      "version": "0.3.4",
       "category": "Developer Tools",
       "tags": [
         "lint",
@@ -217,7 +235,7 @@
         "ref": "main"
       },
       "description": "Operate Baota Linux panel through MCP to manage services, diagnose sites and databases, and audit server security.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "Productivity",
       "tags": [
         "baota",
@@ -227,46 +245,6 @@
       ],
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "strict": true
-    },
-    {
-      "name": "jianying-edit",
-      "source": {
-        "source": "github",
-        "repo": "partme-ai/partme-jianying-plugin",
-        "ref": "main"
-      },
-      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — multi-track video/text/audio, non-destructive, verified.",
-      "version": "0.1.0",
-      "category": "Creativity",
-      "tags": [
-        "jianying",
-        "capcut",
-        "video-editing"
-      ],
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
-      "strict": true
-    },
-    {
-      "name": "volcengine-design",
-      "source": {
-        "source": "github",
-        "repo": "partme-ai/partme-volcengine-design",
-        "ref": "main"
-      },
-      "description": "Volcengine creation suite — Doubao ASR transcription with millisecond word timelines, TTS narration, Seedream images, Seedance video with white-model first/last-frame anchoring.",
-      "description_i18n": {
-        "en": "Volcengine creation suite — Doubao ASR with millisecond word timelines, TTS narration, Seedream images, Seedance video with white-model anchoring.",
-        "zh-CN": "火山引擎创作套件：豆包 ASR 毫秒级词级转写、TTS 配音、Seedream 生图、Seedance 生视频（首尾帧白模锚定）。"
-      },
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-volcengine-design/main/assets/logo.png",
-      "version": "0.1.0",
-      "category": "Creativity",
-      "tags": [
-        "volcengine",
-        "asr",
-        "tts",
-        "seedance"
-      ]
     }
   ]
 }
