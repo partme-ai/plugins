@@ -136,8 +136,8 @@
         "repo": "partme-ai/partme-jianying-plugin",
         "ref": "main"
       },
-      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — 12-skill family covering narration condensing, subtitles, audio layering, motion, and transitions.",
-      "version": "0.2.0",
+      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine: multi-track video/text/audio with transitions and keyframes, non-destructive generation with replace gates, draft-root detection on macOS and Windows, and the narration-condensing pipeline.",
+      "version": "0.6.0",
       "category": "Creativity",
       "tags": [
         "jianying",
