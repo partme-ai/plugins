@@ -48,7 +48,7 @@
     },
     {
       "id": "codeguard",
-      "displayName": "代码规范检查",
+      "displayName": "代码规范守卫",
       "source": "https://github.com/partme-ai/partme-codeguard-plugin"
     },
     {

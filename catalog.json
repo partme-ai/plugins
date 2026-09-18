@@ -123,7 +123,7 @@
     },
     {
       "id": "codeguard",
-      "displayName": "代码规范检查",
+      "displayName": "代码规范守卫",
       "repository": "partme-ai/partme-codeguard-plugin",
       "localDirectory": "partme-codeguard-plugin",
       "version": "0.2.0",
