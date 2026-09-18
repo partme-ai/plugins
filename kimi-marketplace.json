@@ -72,7 +72,8 @@
       "id": "minimax-design",
       "displayName": "MiniMax Design",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
-      "source": "https://github.com/partme-ai/partme-minimax-design"
+      "source": "https://github.com/partme-ai/partme-minimax-design",
+      "version": "0.2.1"
     }
   ]
 }

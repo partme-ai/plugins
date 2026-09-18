@@ -249,8 +249,8 @@
         "authentication": "ON_USE"
       },
       "category": "Creativity",
-      "version": "0.1.0",
-      "description": "Generate MiniMax Hailuo videos with environment-variable auth, first/last-frame anchoring, resumable queries, and vendored mmx toolkit skills.",
+      "version": "0.2.1",
+      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and vendored h3-prompt-writing + mmx toolkit skills.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
       "interface": {
         "displayName": "MiniMax Design",
