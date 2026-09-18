@@ -236,6 +236,27 @@
         "shortDescription": "Operate Baota Linux panel via MCP",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png"
       }
+    },
+    {
+      "name": "minimax-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-minimax-design.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.1.0",
+      "description": "Generate MiniMax Hailuo videos with environment-variable auth, first/last-frame anchoring, resumable queries, and vendored mmx toolkit skills.",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
+      "interface": {
+        "displayName": "MiniMax Design",
+        "shortDescription": "Generate videos with MiniMax Hailuo",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png"
+      }
     }
   ],
   "interface": {
