@@ -183,7 +183,7 @@
       "displayName": "Video Factory",
       "repository": "partme-ai/partme-video-factory",
       "localDirectory": "partme-video-factory",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts.",
       "shortDescription": "Edit, compose, review, and verify videos",
       "category": "Creativity",

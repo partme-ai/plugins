@@ -228,7 +228,7 @@
         "authentication": "ON_USE"
       },
       "category": "Creativity",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Automatic video editing, composition, synchronized review, recovery, and verified media receipts.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/logo-approved.png",
       "interface": {
