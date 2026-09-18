@@ -165,12 +165,12 @@
         "authentication": "ON_USE"
       },
       "category": "Creativity",
-      "version": "0.6.0",
-      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine: multi-track video/text/audio with transitions and keyframes, non-destructive generation with replace gates, draft-root detection on macOS and Windows, and the narration-condensing pipeline.",
+      "version": "0.7.0",
+      "description": "Native, fully editable JianYing Pro drafts from jy14-headless plans or compiled edit-plans, driven through the user's jianying-headless fork unmodified: multi-track video/text/audio with transitions, keyframes, masks, narration condensing, and native MP4 export. Pinned to macOS JianYing 11.4.x.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
       "interface": {
         "displayName": "JianYing Edit",
-        "shortDescription": "Edit-plan JSON to native JianYing drafts",
+        "shortDescription": "jy14 plans to native JianYing drafts",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png"
       }
     },
