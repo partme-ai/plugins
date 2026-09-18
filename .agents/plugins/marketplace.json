@@ -165,8 +165,8 @@
         "authentication": "ON_USE"
       },
       "category": "Creativity",
-      "version": "0.3.0",
-      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
+      "version": "0.4.0",
+      "description": "Generate MiniMax H3 videos with env-var auth, first/last-frame FL2VA anchoring, resumable v2 queries, 11 vendored skills, plus commands, a prompt-writer subagent, and cross-platform credential setup.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
       "interface": {
         "displayName": "MiniMax Design",
