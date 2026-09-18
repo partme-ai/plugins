@@ -227,6 +227,24 @@
       ],
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "strict": true
+    },
+    {
+      "name": "jianying-edit",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-jianying-plugin",
+        "ref": "main"
+      },
+      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — multi-track video/text/audio, non-destructive, verified.",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "jianying",
+        "capcut",
+        "video-editing"
+      ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
+      "strict": true
     }
   ]
 }

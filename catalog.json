@@ -217,6 +217,23 @@
         "linux-ops",
         "mcp"
       ]
+    },
+    {
+      "id": "jianying-edit",
+      "name": "jianying-edit",
+      "displayName": "JianYing Edit",
+      "repository": "partme-ai/partme-jianying-plugin",
+      "localDirectory": "partme-jianying-plugin",
+      "version": "0.1.0",
+      "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — multi-track video/text/audio, non-destructive, verified.",
+      "shortDescription": "Edit-plan JSON to native JianYing drafts",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "jianying",
+        "capcut",
+        "video-editing"
+      ]
     }
   ]
 }

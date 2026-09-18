@@ -73,6 +73,12 @@
       "displayName": "宝塔 Linux 面板",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-bt-plugin"
+    },
+    {
+      "id": "jianying-edit",
+      "displayName": "JianYing Edit",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-jianying-plugin"
     }
   ]
 }
