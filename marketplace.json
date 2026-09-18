@@ -209,6 +209,24 @@
       ],
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "strict": true
+    },
+    {
+      "name": "minimax-design",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-minimax-design",
+        "ref": "main"
+      },
+      "description": "Generate MiniMax Hailuo videos with environment-variable auth, first/last-frame anchoring, resumable queries, and vendored mmx toolkit skills.",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "minimax",
+        "hailuo",
+        "video-generation"
+      ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
+      "strict": true
     }
   ]
 }

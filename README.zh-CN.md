@@ -21,6 +21,7 @@
 | Image Factory | `image-factory` | [partme-image-factory](https://github.com/partme-ai/partme-image-factory) | 0.1.2 | `assets/logo-approved.png` |
 | ProcessOn Design | `processon-design` | [partme-processon-plugin](https://github.com/partme-ai/partme-processon-plugin) | 0.2.0 | `assets/official-logo.png` |
 | Video Factory | `video-factory` | [partme-video-factory](https://github.com/partme-ai/partme-video-factory) | 0.1.0 | `assets/logo-approved.png` |
+| MiniMax 设计 | `minimax-design` | [partme-minimax-design](https://github.com/partme-ai/partme-minimax-design) | 0.1.0 | `assets/logo-approved.png` |
 | 代码规范检查 | `codeguard` | [partme-codeguard-plugin](https://github.com/partme-ai/partme-codeguard-plugin) | 0.2.0 | `assets/official-logo.png` |
 | 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
 

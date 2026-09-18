@@ -9,7 +9,11 @@
       "localDirectory": "partme-cine-planning",
       "repository": "partme-ai/partme-cine-planning",
       "status": "design_baseline_not_released",
-      "modules": ["director", "script", "storyboard"]
+      "modules": [
+        "director",
+        "script",
+        "storyboard"
+      ]
     }
   ],
   "plugins": [
@@ -23,7 +27,11 @@
       "shortDescription": "Inspect scenes and create reversible Playblasts",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["maya", "3d", "playblast"]
+      "tags": [
+        "maya",
+        "3d",
+        "playblast"
+      ]
     },
     {
       "id": "blender-design",
@@ -35,7 +43,11 @@
       "shortDescription": "Design, review, and export Blender projects",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["blender", "3d", "previs"]
+      "tags": [
+        "blender",
+        "3d",
+        "previs"
+      ]
     },
     {
       "id": "comfy-design",
@@ -47,7 +59,11 @@
       "shortDescription": "Comfy Cloud generation workflows",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["comfy", "comfyui", "workflow"]
+      "tags": [
+        "comfy",
+        "comfyui",
+        "workflow"
+      ]
     },
     {
       "id": "dreamina-canvas",
@@ -59,7 +75,11 @@
       "shortDescription": "Build and run structured Dreamina canvases",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["dreamina", "canvas", "timeline"]
+      "tags": [
+        "dreamina",
+        "canvas",
+        "timeline"
+      ]
     },
     {
       "id": "dreamina-design",
@@ -71,7 +91,11 @@
       "shortDescription": "Create images and videos with Dreamina",
       "category": "Creativity",
       "logo": "assets/logo-approved.png",
-      "tags": ["dreamina", "seedance", "text2video"]
+      "tags": [
+        "dreamina",
+        "seedance",
+        "text2video"
+      ]
     },
     {
       "id": "stitch-design",
@@ -83,7 +107,11 @@
       "shortDescription": "Design and build with Google Stitch",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["stitch", "design", "design-to-code"]
+      "tags": [
+        "stitch",
+        "design",
+        "design-to-code"
+      ]
     },
     {
       "id": "image-factory",
@@ -95,7 +123,11 @@
       "shortDescription": "Discover, batch-produce, and evaluate images",
       "category": "Creativity",
       "logo": "assets/logo-approved.png",
-      "tags": ["image", "batch", "receipts"]
+      "tags": [
+        "image",
+        "batch",
+        "receipts"
+      ]
     },
     {
       "id": "processon-design",
@@ -107,7 +139,11 @@
       "shortDescription": "Design polished, editable ProcessOn diagrams",
       "category": "Creativity",
       "logo": "assets/official-logo.png",
-      "tags": ["processon", "diagram", "mind-map"]
+      "tags": [
+        "processon",
+        "diagram",
+        "mind-map"
+      ]
     },
     {
       "id": "video-factory",
@@ -119,7 +155,11 @@
       "shortDescription": "Edit, compose, review, and verify videos",
       "category": "Creativity",
       "logo": "assets/logo-approved.png",
-      "tags": ["video", "editing", "receipts"]
+      "tags": [
+        "video",
+        "editing",
+        "receipts"
+      ]
     },
     {
       "id": "codeguard",
@@ -131,7 +171,19 @@
       "shortDescription": "Make AI-written code pass lint on first try",
       "category": "Developer Tools",
       "logo": "assets/official-logo.png",
-      "tags": ["lint", "code-style", "javadoc", "checkstyle", "clippy", "golangci-lint", "detekt", "swiftlint", "eslint", "ruff", "pre-commit"]
+      "tags": [
+        "lint",
+        "code-style",
+        "javadoc",
+        "checkstyle",
+        "clippy",
+        "golangci-lint",
+        "detekt",
+        "swiftlint",
+        "eslint",
+        "ruff",
+        "pre-commit"
+      ]
     },
     {
       "id": "bt-linux-panel",
@@ -143,7 +195,28 @@
       "shortDescription": "Operate Baota Linux panel via MCP",
       "category": "Productivity",
       "logo": "assets/official-logo.png",
-      "tags": ["baota", "bt-panel", "linux-ops", "mcp"]
+      "tags": [
+        "baota",
+        "bt-panel",
+        "linux-ops",
+        "mcp"
+      ]
+    },
+    {
+      "id": "minimax-design",
+      "displayName": "MiniMax Design",
+      "repository": "partme-ai/partme-minimax-design",
+      "localDirectory": "partme-minimax-design",
+      "version": "0.1.0",
+      "description": "Generate MiniMax Hailuo videos with environment-variable auth, first/last-frame anchoring, resumable queries, and vendored mmx toolkit skills.",
+      "shortDescription": "Generate videos with MiniMax Hailuo",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "minimax",
+        "hailuo",
+        "video-generation"
+      ]
     }
   ]
 }

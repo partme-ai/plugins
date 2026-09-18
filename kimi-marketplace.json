@@ -67,6 +67,12 @@
       "displayName": "宝塔 Linux 面板",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-bt-plugin"
+    },
+    {
+      "id": "minimax-design",
+      "displayName": "MiniMax Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
+      "source": "https://github.com/partme-ai/partme-minimax-design"
     }
   ]
 }
