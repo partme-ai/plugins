@@ -24,6 +24,7 @@ PartMe.AI Plugins is the central catalog for ten independently released plugins.
 | MiniMax Design | `minimax-design` | [partme-minimax-design](https://github.com/partme-ai/partme-minimax-design) | 0.4.0 | `assets/logo-approved.png` |
 | 代码规范检查 | `codeguard` | [partme-codeguard-plugin](https://github.com/partme-ai/partme-codeguard-plugin) | 0.2.0 | `assets/official-logo.png` |
 | 宝塔 Linux 面板 | `bt-linux-panel` | [partme-bt-plugin](https://github.com/partme-ai/partme-bt-plugin) | 1.0.0 | `assets/official-logo.png` |
+| JianYing Edit | `jianying-edit` | [partme-jianying-plugin](https://github.com/partme-ai/partme-jianying-plugin) | 0.1.0 | `assets/official-logo.png` |
 
 Entries are alphabetized by display name. Existing Codex plugin IDs are the canonical IDs for all three platforms.
 
