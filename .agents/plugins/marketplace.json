@@ -278,6 +278,19 @@
         "shortDescription": "Edit-plan JSON to native JianYing drafts",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png"
       }
+    },
+    {
+      "name": "volcengine-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-volcengine-design.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity"
     }
   ],
   "interface": {

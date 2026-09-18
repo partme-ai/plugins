@@ -245,6 +245,28 @@
       ],
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
       "strict": true
+    },
+    {
+      "name": "volcengine-design",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-volcengine-design",
+        "ref": "main"
+      },
+      "description": "Volcengine creation suite — Doubao ASR transcription with millisecond word timelines, TTS narration, Seedream images, Seedance video with white-model first/last-frame anchoring.",
+      "description_i18n": {
+        "en": "Volcengine creation suite — Doubao ASR with millisecond word timelines, TTS narration, Seedream images, Seedance video with white-model anchoring.",
+        "zh-CN": "火山引擎创作套件：豆包 ASR 毫秒级词级转写、TTS 配音、Seedream 生图、Seedance 生视频（首尾帧白模锚定）。"
+      },
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-volcengine-design/main/assets/logo.png",
+      "version": "0.1.0",
+      "category": "Creativity",
+      "tags": [
+        "volcengine",
+        "asr",
+        "tts",
+        "seedance"
+      ]
     }
   ]
 }
