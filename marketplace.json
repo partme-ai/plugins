@@ -137,7 +137,7 @@
         "ref": "main"
       },
       "description": "Turn edit-plan JSON into native, fully editable JianYing Pro drafts via a deterministic headless engine — multi-track video/text/audio, non-destructive, verified.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "Creativity",
       "tags": [
         "jianying",
@@ -155,7 +155,7 @@
         "ref": "main"
       },
       "description": "Generate MiniMax H3 videos with env-var auth, first/last-frame FL2VA anchoring, resumable v2 queries, 11 vendored skills, plus commands, a prompt-writer subagent, and cross-platform credential setup.",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "category": "Creativity",
       "tags": [
         "minimax",
