@@ -130,6 +130,22 @@
       ]
     },
     {
+      "id": "minimax-design",
+      "displayName": "MiniMax Design",
+      "repository": "partme-ai/partme-minimax-design",
+      "localDirectory": "partme-minimax-design",
+      "version": "0.3.0",
+      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
+      "shortDescription": "Generate videos with MiniMax Hailuo",
+      "category": "Creativity",
+      "logo": "assets/official-logo.png",
+      "tags": [
+        "minimax",
+        "hailuo",
+        "video-generation"
+      ]
+    },
+    {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
       "repository": "partme-ai/partme-processon-plugin",
@@ -166,7 +182,7 @@
       "displayName": "代码规范守卫",
       "repository": "partme-ai/partme-codeguard-plugin",
       "localDirectory": "partme-codeguard-plugin",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
       "shortDescription": "Make AI-written code pass lint on first try",
       "category": "Developer Tools",
@@ -200,22 +216,6 @@
         "bt-panel",
         "linux-ops",
         "mcp"
-      ]
-    },
-    {
-      "id": "minimax-design",
-      "displayName": "MiniMax Design",
-      "repository": "partme-ai/partme-minimax-design",
-      "localDirectory": "partme-minimax-design",
-      "version": "0.3.0",
-      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
-      "shortDescription": "Generate videos with MiniMax Hailuo",
-      "category": "Creativity",
-      "logo": "assets/official-logo.png",
-      "tags": [
-        "minimax",
-        "hailuo",
-        "video-generation"
       ]
     }
   ]

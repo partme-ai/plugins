@@ -154,6 +154,27 @@
       }
     },
     {
+      "name": "minimax-design",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/partme-ai/partme-minimax-design.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Creativity",
+      "version": "0.3.0",
+      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
+      "interface": {
+        "displayName": "MiniMax Design",
+        "shortDescription": "Generate videos with MiniMax Hailuo",
+        "logo": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png"
+      }
+    },
+    {
       "name": "processon-design",
       "source": {
         "source": "url",
@@ -207,7 +228,7 @@
         "authentication": "ON_USE"
       },
       "category": "Developer Tools",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
       "interface": {
@@ -235,27 +256,6 @@
         "displayName": "宝塔 Linux 面板",
         "shortDescription": "Operate Baota Linux panel via MCP",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png"
-      }
-    },
-    {
-      "name": "minimax-design",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/partme-ai/partme-minimax-design.git",
-        "ref": "main"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_USE"
-      },
-      "category": "Creativity",
-      "version": "0.3.0",
-      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
-      "interface": {
-        "displayName": "MiniMax Design",
-        "shortDescription": "Generate videos with MiniMax Hailuo",
-        "logo": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png"
       }
     }
   ],

@@ -130,6 +130,24 @@
       "strict": true
     },
     {
+      "name": "minimax-design",
+      "source": {
+        "source": "github",
+        "repo": "partme-ai/partme-minimax-design",
+        "ref": "main"
+      },
+      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
+      "version": "0.3.0",
+      "category": "Creativity",
+      "tags": [
+        "minimax",
+        "hailuo",
+        "video-generation"
+      ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
+      "strict": true
+    },
+    {
       "name": "processon-design",
       "source": {
         "source": "github",
@@ -173,7 +191,7 @@
         "ref": "main"
       },
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "Developer Tools",
       "tags": [
         "lint",
@@ -208,24 +226,6 @@
         "mcp"
       ],
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
-      "strict": true
-    },
-    {
-      "name": "minimax-design",
-      "source": {
-        "source": "github",
-        "repo": "partme-ai/partme-minimax-design",
-        "ref": "main"
-      },
-      "description": "Generate MiniMax H3 videos with environment-variable auth, first/last-frame FL2VA anchoring, resumable v2 queries, and 11 vendored skills (mmx toolkit, music, and 8 mmx-cli-adapted H3 style generators).",
-      "version": "0.3.0",
-      "category": "Creativity",
-      "tags": [
-        "minimax",
-        "hailuo",
-        "video-generation"
-      ],
-      "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/logo-approved.png",
       "strict": true
     }
   ]
