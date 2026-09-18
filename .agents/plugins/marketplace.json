@@ -170,7 +170,7 @@
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
       "interface": {
         "displayName": "MiniMax Design",
-        "shortDescription": "Generate videos with MiniMax Hailuo",
+        "shortDescription": "Generate H3 videos with MiniMax — white-model first/last-frame anchoring",
         "logo": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png"
       }
     },
