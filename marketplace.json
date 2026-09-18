@@ -1,5 +1,6 @@
 {
   "name": "partme-ai",
+  "displayName": "PartMe.AI 插件",
   "description": "PartMe.AI plugin marketplace for Codex, ZCode, and Kimi Code.",
   "plugins": [
     {
@@ -17,6 +18,7 @@
         "3d",
         "playblast"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -34,6 +36,7 @@
         "3d",
         "previs"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -51,6 +54,7 @@
         "comfyui",
         "workflow"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -68,6 +72,7 @@
         "canvas",
         "timeline"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -85,6 +90,7 @@
         "seedance",
         "text2video"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png",
       "strict": true
     },
     {
@@ -102,6 +108,7 @@
         "design",
         "design-to-code"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -119,6 +126,7 @@
         "batch",
         "receipts"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo-approved.png",
       "strict": true
     },
     {
@@ -136,6 +144,7 @@
         "diagram",
         "mind-map"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -153,6 +162,7 @@
         "editing",
         "receipts"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/logo-approved.png",
       "strict": true
     },
     {
@@ -178,6 +188,7 @@
         "ruff",
         "pre-commit"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
       "strict": true
     },
     {
@@ -196,6 +207,7 @@
         "linux-ops",
         "mcp"
       ],
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "strict": true
     }
   ]

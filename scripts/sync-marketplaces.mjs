@@ -40,6 +40,7 @@ const codex = {
 
 const zcode = {
   name: catalog.name,
+  displayName: catalog.displayName,
   description: catalog.description,
   plugins: catalog.plugins.map((plugin) => ({
     name: plugin.id,
@@ -48,15 +49,18 @@ const zcode = {
     version: plugin.version,
     category: plugin.category,
     tags: plugin.tags,
+    icon: rawLogo(plugin),
     strict: true
   }))
 };
 
 const kimi = {
   version: "2",
+  displayName: catalog.displayName,
   plugins: catalog.plugins.map((plugin) => ({
     id: plugin.id,
     displayName: plugin.displayName,
+    icon: rawLogo(plugin),
     source: `https://github.com/${plugin.repository}`
   }))
 };

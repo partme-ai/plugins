@@ -1,59 +1,71 @@
 {
   "version": "2",
+  "displayName": "PartMe.AI 插件",
   "plugins": [
     {
       "id": "maya-design",
       "displayName": "Autodesk Maya Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-maya-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-maya-plugin"
     },
     {
       "id": "blender-design",
       "displayName": "Blender Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-blender-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-blender-plugin"
     },
     {
       "id": "comfy-design",
       "displayName": "Comfy Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-comfy-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-comfy-plugin"
     },
     {
       "id": "dreamina-canvas",
       "displayName": "Dreamina Canvas",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-canvas/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-dreamina-canvas"
     },
     {
       "id": "dreamina-design",
       "displayName": "Dreamina Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-dreamina-design/main/assets/logo-approved.png",
       "source": "https://github.com/partme-ai/partme-dreamina-design"
     },
     {
       "id": "stitch-design",
       "displayName": "Google Stitch Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-stitch-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-stitch-plugin"
     },
     {
       "id": "image-factory",
       "displayName": "Image Factory",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-image-factory/main/assets/logo-approved.png",
       "source": "https://github.com/partme-ai/partme-image-factory"
     },
     {
       "id": "processon-design",
       "displayName": "ProcessOn Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-processon-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-processon-plugin"
     },
     {
       "id": "video-factory",
       "displayName": "Video Factory",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-video-factory/main/assets/logo-approved.png",
       "source": "https://github.com/partme-ai/partme-video-factory"
     },
     {
       "id": "codeguard",
       "displayName": "代码规范守卫",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-codeguard-plugin"
     },
     {
       "id": "bt-linux-panel",
       "displayName": "宝塔 Linux 面板",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-bt-plugin/main/assets/official-logo.png",
       "source": "https://github.com/partme-ai/partme-bt-plugin"
     }
   ]
