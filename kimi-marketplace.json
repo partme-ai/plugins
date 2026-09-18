@@ -69,6 +69,12 @@
       "source": "https://github.com/partme-ai/partme-video-factory"
     },
     {
+      "id": "volcengine-design",
+      "displayName": "Volcengine Design",
+      "icon": "https://raw.githubusercontent.com/partme-ai/partme-volcengine-design/main/assets/official-logo.png",
+      "source": "https://github.com/partme-ai/partme-volcengine-design"
+    },
+    {
       "id": "codeguard",
       "displayName": "代码规范守卫",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
