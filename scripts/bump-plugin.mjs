@@ -22,10 +22,33 @@ import process from "node:process";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
-const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const workspace = path.dirname(root);
+const root = resolvePluginsRoot();
 const [pluginId, level, dryRunFlag] = process.argv.slice(2);
 const dryRun = dryRunFlag === "--dry-run";
+
+/**
+ * 定位 plugins 市场仓（含 catalog.json 的那个目录）。
+ * 本脚本同时存在于 plugins/scripts/（主本）和每个插件仓 scripts/（分发副本），
+ * 两种位置都要能找到市场仓：
+ *   a) PARTME_PLUGINS_ROOT 环境变量
+ *   b) 脚本位于 <plugins>/scripts/ 下（主本）
+ *   c) 从脚本位置向上找 <dir>/plugins/catalog.json（插件仓分发副本场景）
+ */
+function resolvePluginsRoot() {
+  if (process.env.PARTME_PLUGINS_ROOT) return path.resolve(process.env.PARTME_PLUGINS_ROOT);
+  const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+  if (path.basename(scriptDir) === "scripts" && fs.existsSync(path.join(scriptDir, "..", "catalog.json"))) {
+    return path.resolve(scriptDir, "..");
+  }
+  let dir = path.resolve(scriptDir, "..");
+  while (dir !== path.parse(dir).root) {
+    const candidate = path.join(dir, "plugins", "catalog.json");
+    if (fs.existsSync(candidate)) return path.join(dir, "plugins");
+    dir = path.dirname(dir);
+  }
+  throw new Error("找不到 plugins 市场仓（含 catalog.json）。可设 PARTME_PLUGINS_ROOT 指定。");
+}
+
 
 if (!pluginId || !["major", "minor", "patch"].includes(level)) {
   console.error("用法: node scripts/bump-plugin.mjs <plugin-id> <major|minor|patch> [--dry-run]");
@@ -41,6 +64,7 @@ const bump = (v) => {
 };
 
 const catalogPath = path.join(root, "catalog.json");
+const workspace = path.dirname(root);
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const plugin = catalog.plugins.find((p) => p.id === pluginId);
 if (!plugin) {
