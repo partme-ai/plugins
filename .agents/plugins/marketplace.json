@@ -228,7 +228,7 @@
         "authentication": "ON_USE"
       },
       "category": "Developer Tools",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "description": "Cross-language code lint enforcement for AI coding assistants (ZCode, Claude Code, Codex CLI, Kimi Code): Java, Rust, TypeScript, Python. PostToolUse hook auto-runs the native linter on every AI-written file and blocks on failure in strict mode.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-codeguard-plugin/main/assets/official-logo.png",
       "interface": {

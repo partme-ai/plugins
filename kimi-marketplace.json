@@ -48,8 +48,7 @@
       "id": "minimax-design",
       "displayName": "MiniMax Design",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-minimax-design/main/assets/official-logo.png",
-      "source": "https://github.com/partme-ai/partme-minimax-design",
-      "version": "0.4.0"
+      "source": "https://github.com/partme-ai/partme-minimax-design"
     },
     {
       "id": "processon-design",
