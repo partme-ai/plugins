@@ -135,7 +135,7 @@
       "displayName": "JianYing Edit",
       "repository": "partme-ai/partme-jianying-plugin",
       "localDirectory": "partme-jianying-plugin",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "description": "Native, fully editable JianYing drafts via the vendored Apache-2.0 pyJianYingDraft engine plus the built-in Rust jycut CLI: multi-track video/text/audio, the 453-name transition catalog, keyframes, masks, styled text and SRT captions; optional fork pro-tier for native export and existing-draft editing. No account, no upload.",
       "shortDescription": "pyJianYingDraft-powered native draft engine",
       "category": "Creativity",
