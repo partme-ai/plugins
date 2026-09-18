@@ -137,7 +137,7 @@
         "ref": "main"
       },
       "description": "Native, fully editable JianYing Pro drafts from jy14-headless plans or compiled edit-plans, driven through the user's jianying-headless fork unmodified: multi-track video/text/audio with transitions, keyframes, masks, narration condensing, and native MP4 export. Pinned to macOS JianYing 11.4.x.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "category": "Creativity",
       "tags": [
         "jianying",

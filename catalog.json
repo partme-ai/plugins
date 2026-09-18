@@ -135,7 +135,7 @@
       "displayName": "JianYing Edit",
       "repository": "partme-ai/partme-jianying-plugin",
       "localDirectory": "partme-jianying-plugin",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "description": "Native, fully editable JianYing Pro drafts from jy14-headless plans or compiled edit-plans, driven through the user's jianying-headless fork unmodified: multi-track video/text/audio with transitions, keyframes, masks, narration condensing, and native MP4 export. Pinned to macOS JianYing 11.4.x.",
       "shortDescription": "jy14 plans to native JianYing drafts",
       "category": "Creativity",
