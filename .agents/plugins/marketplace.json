@@ -165,7 +165,7 @@
         "authentication": "ON_USE"
       },
       "category": "Creativity",
-      "version": "0.11.1",
+      "version": "0.12.0",
       "description": "Native, fully editable JianYing drafts via the vendored Apache-2.0 pyJianYingDraft engine plus the built-in Rust jycut CLI: multi-track video/text/audio, the 453-name transition catalog, keyframes, masks, styled text and SRT captions; optional fork pro-tier for native export and existing-draft editing. No account, no upload.",
       "icon": "https://raw.githubusercontent.com/partme-ai/partme-jianying-plugin/main/assets/official-logo.png",
       "interface": {
