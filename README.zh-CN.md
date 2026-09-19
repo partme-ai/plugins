@@ -1,6 +1,6 @@
 # PartMe.AI 插件市场
 
-> ⚠️ **已弃用（2026-09-19）：** 本市场已拆分为两个领域市场，不再更新。新安装请使用 **[full-aigc-plugins/plugins](https://github.com/full-aigc-plugins/plugins)**（AIGC）与 **[full-stack-plugins/plugins](https://github.com/full-stack-plugins/plugins)**（研发过程）。已安装的插件经 GitHub 重定向仍可用——如需后续更新，请移除 `partme-ai` 市场并添加两个新市场。
+> ⚠️ **已弃用（2026-09-19）：** 本市场已拆分为两个领域市场，不再更新。新安装请使用 **[partme-ai/full-aigc-plugins](https://github.com/partme-ai/full-aigc-plugins)**（AIGC）与 **[partme-ai/full-stack-plugins](https://github.com/partme-ai/full-stack-plugins)**（研发过程）。已安装的插件经 GitHub 重定向仍可用——如需后续更新，请移除 `partme-ai` 市场并添加两个新市场。
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 

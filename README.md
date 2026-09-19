@@ -1,6 +1,6 @@
 # PartMe.AI Plugins
 
-> ⚠️ **DEPRECATED (2026-09-19):** This marketplace has been split into two domain marketplaces and will not receive further updates. For new installs use **[full-aigc-plugins/plugins](https://github.com/full-aigc-plugins/plugins)** (AIGC) and **[full-stack-plugins/plugins](https://github.com/full-stack-plugins/plugins)** (development process). Existing installs keep working via GitHub redirects — remove the `partme-ai` marketplace and add the two new ones to get future updates.
+> ⚠️ **DEPRECATED (2026-09-19):** This marketplace has been split into two domain marketplaces and will not receive further updates. For new installs use **[partme-ai/full-aigc-plugins](https://github.com/partme-ai/full-aigc-plugins)** (AIGC) and **[partme-ai/full-stack-plugins](https://github.com/partme-ai/full-stack-plugins)** (development process). Existing installs keep working via GitHub redirects — remove the `partme-ai` marketplace and add the two new ones to get future updates.
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
